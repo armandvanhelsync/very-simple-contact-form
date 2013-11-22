@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Very Simple Contact Form
- * Description: This is a very simple translation-ready contact form. Use shortcode [contact] (email from admin will be used) or shortcode [contact email="your@email.address"] to display form on page.
+ * Description: This is a very simple translation-ready contact form. Use shortcode [contact] to display form on page. For more info please check readme file.
  * Version: 1.0
  * Author: Guido van der Leest
  * Author URI: http://www.guidovanderleest.nl
