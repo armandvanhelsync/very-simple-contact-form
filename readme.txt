@@ -14,13 +14,13 @@ Version 1.0: first stable release
 
 
 == DESCRIPTION ==
-This is a very simple translation-ready contact form. It only contains Name, Email, Subject and Message. Use shortcode [contact] (email from admin will be used) or shortcode [contact email="your@email.address"] to display form on page.
+This is a very simple translation-ready contact form. It only contains Name, Email, Subject and Message. Use shortcode [contact] to display form on page. For more info please check readme file.
 
 
 == INSTALATION == 
-After installation you add shortcode [contact] on your contactpage for displaying the form. In this case messages will be send to email from admin.
-If you want to use another email, use shortcode [contact email="your@email.address"].
-And if you want to use multiple email, use shortcode [contact email="your@email.address, your@email.address"].
+After installation please add shortcode [contact] on your contactpage for displaying the form. In this case messages will be send to email from admin.
+If you want to use another email, use shortcode [contact email="your[at]email.address"].
+And if you want to use multiple email, use shortcode [contact email="your[at]email.address, your[at]email.address"].
 
 
 == OTHER NOTES ==
