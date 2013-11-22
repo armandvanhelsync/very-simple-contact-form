@@ -1,5 +1,5 @@
 === Very Simple Contact Form ===
-Contributors: Guido van der Leest
+Contributors: Guido07111975
 Version: 1.0
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -14,7 +14,7 @@ Version 1.0: first stable release
 
 
 == DESCRIPTION ==
-This is a very simple translation-ready contact form. Use shortcode [contact] (email from admin will be used) or shortcode [contact email="your@email.address"] to display form on page.
+This is a very simple translation-ready contact form. It only contains Name, Email, Subject and Message. Use shortcode [contact] (email from admin will be used) or shortcode [contact email="your@email.address"] to display form on page.
 
 
 == INSTALATION == 
@@ -37,7 +37,7 @@ Without the WordPress codex and help from the WordPress community I was not able
 Also I want to thank Abraham Nelson for his help with validation and sanitization.
 
 I used this script for developing the Very Simple Contact Form:
-Source: http://wp.tutsplus.com/tutorials/creative-coding/creating-a-simple-contact-form-for-simple-needs/
+http://wp.tutsplus.com/tutorials/creative-coding/creating-a-simple-contact-form-for-simple-needs/
 Copyright author: Baris Unver
 Author URI:  http://wp.tutsplus.com
 License: GNU General Public License v2 or later
