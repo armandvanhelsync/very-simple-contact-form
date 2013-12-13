@@ -23,6 +23,10 @@ If you want to use another email, use shortcode [contact email="your-email-addre
 And if you want to use multiple email, use shortcode [contact email="your-email-address, your-email-address"].
 
 
+== Screenshots == 
+1. Very Simple Contact Form in frontend of your website.
+
+
 == OTHER NOTES ==
 I only added minimum styling (css), so this form will use most of it from your own theme. 
 Of course you can add your own styling in plugins stylesheet 'vscf_style'.

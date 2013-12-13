@@ -1,10 +1,10 @@
-#vscf label { display: block; margin: 10px 0; font-size: 1em; color: #333; }
-#vscf_name, #vscf_email, #vscf_subject { display: block; margin: 10px 0; border:1px solid #ccc; padding: 5px; font-size: 1em; color: #333; width: 70%; }
-#vscf_message { display: block; margin: 10px 0; border:1px solid #ccc; padding: 5px; font-size: 1em; color: #333; width: 90%; }
-#vscf_send { padding: 5px 10px; width: 8em; border:1px solid #ccc; background: #eee; color: #333; }
-#vscf_send:hover { border:1px solid #ccc; background: #ddd; color: #333; } 
+#vscf label { display: block; margin: 10px 0; font-size: 1em; }
+#vscf_name, #vscf_email, #vscf_subject { display: block; margin: 10px 0; border:1px solid #ccc; padding: 5px; font-size: 1em; width: 70%; }
+#vscf_message { display: block; margin: 10px 0; border:1px solid #ccc; padding: 5px; font-size: 1em; width: 90%; }
+#vscf_send { padding: 5px 10px; width: 8em; border:1px solid #ccc; background: #eee; }
+#vscf_send:hover { border:1px solid #ccc; background: #ddd; } 
 #vscf input.error { border-color: #e77776; }
 #vscf textarea.error { border-color: #e77776; }
 span.error { color: #e77776; }
 span.hide { display:none; }
-.info { font-style: italic; font-size: 1.25em; }
+.info { clear:both; font-style: italic; font-size: 1.25em; }
