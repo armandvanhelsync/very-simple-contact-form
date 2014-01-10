@@ -10,7 +10,12 @@ Tags: simple, contact, contactform, email
 
 
 == Changelog == 
-Version 1.0: first stable release
+Version 1.1
+- removed font-family from stylesheet
+- added French and German translation (thanks Curlybracket)
+
+Version 1.0
+- first stable release
 
 
 == DESCRIPTION ==
@@ -24,21 +29,21 @@ And if you want to use multiple email, use shortcode [contact email="your-email-
 
 
 == Screenshots == 
-1. Very Simple Contact Form in frontend of your website.
+1. Very Simple Contact Form in frontend of your website (using Twenty Twelve theme).
 
 
 == OTHER NOTES ==
 I only added minimum styling (css), so this form will use most of it from your own theme. 
 Of course you can add your own styling in plugins stylesheet 'vscf_style'.
 
-This plugin is translation-ready (Dutch translation included). 
+This plugin is translation-ready (Dutch, German and French translation included).
 You can translate this into your own language using for example plugin Codestyling Localization: http://wordpress.org/plugins/codestyling-localization/
 
 
 == CREDITS ==
 Without the WordPress codex and help from the WordPress community I was not able to develop my theme, so: thank you!
 
-Also I want to thank Abraham Nelson for his help with validation and sanitization.
+Also I want to thank Abraham Nelson for his help with validation and sanitization and Curlybracket for German and French translation.
 
 I used this script for developing the Very Simple Contact Form:
 http://wp.tutsplus.com/tutorials/creative-coding/creating-a-simple-contact-form-for-simple-needs/
