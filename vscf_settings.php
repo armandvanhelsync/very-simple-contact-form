@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Very Simple Contact Form
  * Description: This is a very simple translation-ready contact form. Use shortcode [contact] to display form on page. For more info please check readme file.
- * Version: 1.1
+ * Version: 1.2
  * Author: Guido van der Leest
  * Author URI: http://www.guidovanderleest.nl
  * License: GNU General Public License v3 or later
@@ -19,22 +19,11 @@ function vscf_init() {
 add_action('plugins_loaded', 'vscf_init');
  
 
-// Enqueues jquery
-function load_jquery() {
-	if(!is_admin())
-	{
-	wp_enqueue_script( 'jquery' ); 
-	}
-} 
-add_action( 'wp_enqueue_script', 'load_jquery' ); 
-
-
 // Enqueues plugin scripts
 function vscf_scripts() {	
 	if(!is_admin())
 	{
 		wp_enqueue_style('vscf_style', plugins_url('vscf_style.css',__FILE__));
-		wp_enqueue_script('vscf_script', plugins_url('js/vscf_script.js', __FILE__ ) );
 	}
 }
 add_action('wp_enqueue_scripts', 'vscf_scripts');

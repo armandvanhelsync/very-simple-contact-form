@@ -1,15 +1,19 @@
 === Very Simple Contact Form ===
 Contributors: Guido07111975
-Version: 1.0
+Version: 1.2
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at Least: 3.7
-Tested up to: 3.8
+Tested up to: 3.8.1
 Stable tag: trunk
 Tags: simple, contact, contactform, email
 
 
 == Changelog == 
+Version 1.2
+- IMPORTANT security update > please do not use older version of plugin
+- removed jquery validation
+
 Version 1.1
 - removed font-family from stylesheet
 - added French and German translation (thanks Curlybracket)
@@ -42,8 +46,6 @@ You can translate this into your own language using for example plugin Codestyli
 
 == CREDITS ==
 Without the WordPress codex and help from the WordPress community I was not able to develop my theme, so: thank you!
-
-Also I want to thank Abraham Nelson for his help with validation and sanitization and Curlybracket for German and French translation.
 
 I used this script for developing the Very Simple Contact Form:
 http://wp.tutsplus.com/tutorials/creative-coding/creating-a-simple-contact-form-for-simple-needs/

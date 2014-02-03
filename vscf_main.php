@@ -21,14 +21,14 @@ function vscf_shortcode($atts) {
 	
 	// get posted data and sanitize them
 		$post_data = array(
-			'your_name'	=> vscf_clean_input(sanitize_text_field($_POST['your_name'])),
+			'your_name'	=> vscf_clean_input (sanitize_text_field($_POST['your_name'])),
 			'email'		=> sanitize_email($_POST['email']),
-			'message'		=> wp_kses_post($_POST['message']),
-			'subject'		=> vscf_clean_input(sanitize_text_field($_POST['subject']))
+			'subject'		=> vscf_clean_input (sanitize_text_field($_POST['subject'])),
+			'message'		=> vscf_clean_input (sanitize_text_field($_POST['message']))
 			);
 			
 		$error = false;
-		$required_fields = array("your_name", "email", "message", "subject");
+		$required_fields = array("your_name", "email", "subject", "message");
 		
 		foreach ($required_fields as $required_field) {
 			$value = stripslashes(trim($post_data[$required_field]));
@@ -36,8 +36,8 @@ function vscf_shortcode($atts) {
 		// displaying error message if validation failed for each input field
 			if(((($required_field == "your_name") || ($required_field == "subject")) && strlen($value)<3) || 
 			 	(($required_field == "message") && strlen($value)<10) || empty($value)) {
-				$error_class[$required_field]="error";
-				$error_msg[$required_field]	= ${"error_".$required_field};
+				$error_class[$required_field] = "error";
+				$error_msg[$required_field] = ${"error_".$required_field};
 				$error = true;
 				$result = $error_empty;
 			}
