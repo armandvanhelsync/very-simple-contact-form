@@ -13,6 +13,7 @@ Tags: simple, contact, contactform, email
 Version 1.2
 - IMPORTANT security update > please do not use older version of plugin
 - removed jquery validation
+- several other small adjustments
 
 Version 1.1
 - removed font-family from stylesheet
