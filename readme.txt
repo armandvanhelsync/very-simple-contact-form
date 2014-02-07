@@ -27,7 +27,7 @@ Version 1.0
 
 
 == DESCRIPTION ==
-This is a very simple responsive translation-ready contact form. It only contains Name, Email, Subject and Message. Use shortcode [contact] to display form on page. For more info please check readme file.
+This is a very simple responsive translation-ready contact form. It contains Name, Email, Subject and Message. Use shortcode [contact] to display form on page. For more info please check readme file.
 
 
 == INSTALLATION == 
