@@ -1,18 +1,21 @@
 === Very Simple Contact Form ===
 Contributors: Guido07111975
-Version: 1.2
+Version: 1.3
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at Least: 3.7
 Tested up to: 3.8.1
 Stable tag: trunk
-Tags: simple, contact, contactform, email
+Tags: simple, responsive, contact, contactform, email
 
 
 == Changelog == 
+Version 1.3
+- removed code that wasn't necessary
+
 Version 1.2
-- IMPORTANT security update > please do not use older version of plugin
-- removed jquery validation
+- IMPORTANT SECURITY UPDATE > please do not use older version of plugin
+- removed jquery validation (and folder .js)
 - several other small adjustments
 
 Version 1.1
@@ -24,7 +27,7 @@ Version 1.0
 
 
 == DESCRIPTION ==
-This is a very simple translation-ready contact form. It only contains Name, Email, Subject and Message. Use shortcode [contact] to display form on page. For more info please check readme file.
+This is a very simple responsive translation-ready contact form. It only contains Name, Email, Subject and Message. Use shortcode [contact] to display form on page. For more info please check readme file.
 
 
 == INSTALLATION == 
@@ -38,8 +41,7 @@ And if you want to use multiple email, use shortcode [contact email="your-email-
 
 
 == OTHER NOTES ==
-I only added minimum styling (css), so this form will use most of it from your own theme. 
-Of course you can add your own styling in plugins stylesheet 'vscf_style'.
+I only added minimum styling (css). Of course you can add your own styling in plugins stylesheet 'vscf_style'.
 
 This plugin is translation-ready (Dutch, German and French translation included).
 You can translate this into your own language using for example plugin Codestyling Localization: http://wordpress.org/plugins/codestyling-localization/
