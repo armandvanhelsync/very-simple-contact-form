@@ -12,6 +12,7 @@ Tags: simple, responsive, contact, contactform, email
 == Changelog == 
 Version 1.3
 - removed code that wasn't necessary
+- added Hungarian translation (thanks Roman Kekesi)
 
 Version 1.2
 - IMPORTANT SECURITY UPDATE > please do not use older version of plugin
