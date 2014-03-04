@@ -4,8 +4,8 @@ function vscf_shortcode($atts) {
 	extract(shortcode_atts(array(
 		"email" 				=> get_bloginfo('admin_email'),
 		"subject" 				=> '',
-		"label_name" 			=> __('Your name', 'verysimple') ,
-		"label_email" 			=> __('Your email', 'verysimple') ,
+		"label_name" 			=> __('Name', 'verysimple') ,
+		"label_email" 			=> __('Email', 'verysimple') ,
 		"label_subject" 		=> __('Subject', 'verysimple') ,
 		"label_message"			=> __('Message', 'verysimple') ,
 		"label_submit" 			=> __('Submit', 'verysimple') ,

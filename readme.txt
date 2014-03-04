@@ -1,6 +1,6 @@
 === Very Simple Contact Form ===
 Contributors: Guido07111975
-Version: 1.3
+Version: 1.4
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at Least: 3.7
@@ -10,6 +10,9 @@ Tags: simple, responsive, contact, contactform, email
 
 
 == Changelog == 
+Version 1.4
+- several small adjustments
+
 Version 1.3
 - removed code that wasn't necessary
 - added Hungarian translation (thanks Roman Kekesi)
@@ -38,13 +41,13 @@ And if you want to use multiple email, use shortcode [contact email="your-email-
 
 
 == Screenshots == 
-1. Very Simple Contact Form in frontend of your website (using Twenty Twelve theme).
+1. Very Simple Contact Form in frontend of your website (using Twenty Fourteen theme).
 
 
 == OTHER NOTES ==
-I only added minimum styling (css). Of course you can add your own styling in plugins stylesheet 'vscf_style'.
+I only added minimum styling (css). You can add your own styling in plugins stylesheet 'vscf_style'.
 
-This plugin is translation-ready (Dutch, German and French translation included).
+This plugin is translation-ready (Dutch, German, French and Hungarian translation included).
 You can translate this into your own language using for example plugin Codestyling Localization: http://wordpress.org/plugins/codestyling-localization/
 
 
@@ -52,7 +55,7 @@ You can translate this into your own language using for example plugin Codestyli
 Without the WordPress codex and help from the WordPress community I was not able to develop my theme, so: thank you!
 
 I used this script for developing the Very Simple Contact Form:
-http://wp.tutsplus.com/tutorials/creative-coding/creating-a-simple-contact-form-for-simple-needs/
+http://code.tutsplus.com/articles/creating-a-simple-contact-form-for-simple-needs--wp-27893
 This script is released under the GNU General Public License v3 or later
 
 
