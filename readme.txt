@@ -52,7 +52,7 @@ You can translate this into your own language using for example plugin Codestyli
 
 
 == CREDITS ==
-Without the WordPress codex and help from the WordPress community I was not able to develop my theme, so: thank you!
+Without the WordPress codex and help from the WordPress community I was not able to develop this plugin, so: thank you!
 
 I used this script for developing the Very Simple Contact Form:
 http://code.tutsplus.com/articles/creating-a-simple-contact-form-for-simple-needs--wp-27893
