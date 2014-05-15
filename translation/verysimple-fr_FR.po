@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Very Simple Contact Form v1.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-05-14 21:38:58+0000\n"
+"PO-Revision-Date: 2014-05-15 16:15:23+0000\n"
 "Last-Translator: Guido van der Leest\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -93,9 +93,7 @@ msgstr "Merci pour votre message. Nous vous contacterons dans les plus brefs dé
 #: vscf_settings.php:0
 #@ verysimple
 msgid "This is a very simple contact form. Use shortcode [contact] to display form on page. For more info please check readme file."
-msgstr ""
-"C'est un formulaire de contact très simple. Utilisez le shortcode [contact] afin d'afficher le formulaire sur la page. Veuillez lire le\n"
-"fichier README pour plus d'informations."
+msgstr "C'est un formulaire de contact très simple. Utilisez le shortcode [contact] afin d'afficher le formulaire sur la page. Veuillez lire le fichier README pour plus d'informations."
 
 #. translators: plugin header field 'Version'
 #: vscf_settings.php:0
