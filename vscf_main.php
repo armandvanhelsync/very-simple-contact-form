@@ -2,12 +2,11 @@
 // the shortcode
 function vscf_shortcode($atts) {
 	extract(shortcode_atts(array(
-		"email" 				=> get_bloginfo('admin_email'),
-		"subject" 				=> '',
+		"email_to" 			=> get_bloginfo('admin_email'),
 		"label_name" 			=> __('Name', 'verysimple') ,
 		"label_email" 			=> __('Email', 'verysimple') ,
 		"label_subject" 		=> __('Subject', 'verysimple') ,
-		"label_message"			=> __('Message', 'verysimple') ,
+		"label_message" 		=> __('Message', 'verysimple') ,
 		"label_submit" 			=> __('Submit', 'verysimple') ,
 		"error_empty" 			=> __("Please fill in all the required fields", "verysimple"),
 		"error_form_name" 		=> __('Please enter at least 3 characters', 'verysimple') ,
@@ -21,10 +20,10 @@ function vscf_shortcode($atts) {
 	
 	// get posted data and sanitize them
 		$post_data = array(
-			'form_name'		=> vscf_clean_input (sanitize_text_field($_POST['form_name'])),
-			'email'			=> sanitize_email($_POST['email']),
-			'form_subject'		=> vscf_clean_input (sanitize_text_field($_POST['form_subject'])),
-			'form_message'		=> vscf_clean_input (sanitize_text_field($_POST['form_message']))
+			'form_name' 		=> vscf_clean_input (sanitize_text_field($_POST['form_name'])),
+			'email' 			=> sanitize_email($_POST['email']),
+			'form_subject' 		=> vscf_clean_input (sanitize_text_field($_POST['form_subject'])),
+			'form_message' 		=> vscf_clean_input (sanitize_text_field($_POST['form_message']))
 		);
 			
 		$error = false;
@@ -48,11 +47,11 @@ function vscf_shortcode($atts) {
 		// sending email to admin
 		if ($error == false) {
 			$email_subject = "[" . get_bloginfo('name') . "] " . $form_data['form_subject'];
-			$email_message = $form_data['form_message'] . "\n\nIP: " . vscf_get_the_ip();
+			$email_message = $form_data['form_name'] . "\n\n" . $form_data['email'] . "\n\n" . $form_data['form_message'] . "\n\nIP: " . vscf_get_the_ip();
 			$headers  = "From: ".$form_data['form_name']." <".$form_data['email'].">\n";
 			$headers .= "Content-Type: text/plain; charset=UTF-8\n";
 			$headers .= "Content-Transfer-Encoding: 8bit\n";
-			wp_mail($email, $email_subject, $email_message, $headers);
+			wp_mail($email_to, $email_subject, $email_message, $headers);
 			$result = $success;
 			$sent = true;
 		}

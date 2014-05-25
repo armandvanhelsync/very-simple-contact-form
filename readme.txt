@@ -1,6 +1,6 @@
 === Very Simple Contact Form ===
 Contributors: Guido07111975
-Version: 1.6
+Version: 1.7
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at Least: 3.7
@@ -10,6 +10,10 @@ Tags: simple, responsive, contact, contactform, email
 
 
 == Changelog ==
+Version 1.7
+- changed shortcode 'email' into 'email_to' (to avoid possible conflict with the email input field)
+- added name and email in text of message to admin
+
 Version 1.6
 - updated several translation files
 - added Spanish translation (thanks Alvaro Reig Gonzalez)
@@ -42,7 +46,7 @@ This is a very simple responsive translation-ready contact form. It only contain
 
 
 == INSTALLATION == 
-After installation please add shortcode [contact] on your contactpage for displaying the form. In this case messages will be send to email from admin.
+After installation please add shortcode [contact] on your contactpage for displaying the form. In this case messages will be send to email from admin (Settings > General).
 If you want to use another email, use shortcode [contact email="your-email-address"].
 And if you want to use multiple email, use shortcode [contact email="your-email-address, your-email-address"].
 
