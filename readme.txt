@@ -47,8 +47,8 @@ This is a very simple responsive translation-ready contact form. It only contain
 
 == INSTALLATION == 
 After installation please add shortcode [contact] on your contactpage for displaying the form. In this case messages will be send to email from admin (Settings > General).
-If you want to use another email, use shortcode [contact email="your-email-address"].
-And if you want to use multiple email, use shortcode [contact email="your-email-address, your-email-address"].
+If you want to use another email, use shortcode [contact email_to="your-email-here"].
+And if you want to use multiple email, use shortcode [contact email_to="first-email-here, second-email-here"].
 
 
 == Screenshots == 
