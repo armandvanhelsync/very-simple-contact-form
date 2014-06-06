@@ -13,6 +13,7 @@ Tags: simple, responsive, contact, contactform, email
 Version 1.7
 - changed shortcode 'email' into 'email_to' (to avoid possible conflict with the email input field)
 - added name and email in text of message to admin
+- added Brazilian Portuguese translation (thanks Gustavo Lucas)
 
 Version 1.6
 - updated several translation files
@@ -42,7 +43,7 @@ Version 1.0
 
 
 == DESCRIPTION ==
-This is a very simple responsive translation-ready contact form. It only contains Name, Email, Subject and Message. Use shortcode [contact] to display form on page. Dutch, German, Spanish, French and Hungarian translation included. For more info please check readme file.
+This is a very simple responsive translation-ready contact form. It only contains Name, Email, Subject and Message. Use shortcode [contact] to display form on page. Dutch, German, Spanish, Brazilian Portuguese, French and Hungarian translation included. For more info please check readme file.
 
 
 == INSTALLATION == 
@@ -56,7 +57,7 @@ And if you want to use multiple email, use shortcode [contact email_to="first-em
 
 
 == OTHER NOTES ==
-This plugin is translation-ready (Dutch, German, Spanish, French and Hungarian translation included). More translations are very welcome!
+This plugin is translation-ready (Dutch, German, Spanish, French and Hungarian translation included). More translations are very welcome! Please send them to: info@guidovanderleest.nl
 You can translate this into your own language using for example plugin Codestyling Localization: http://wordpress.org/plugins/codestyling-localization/
 
 
