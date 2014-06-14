@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Very Simple Contact Form v1.5\n"
+"Project-Id-Version: Very Simple Contact Form v1.8\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-05-22 20:18:18+0000\n"
+"PO-Revision-Date: 2014-06-14 15:42:02+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -20,27 +20,27 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Textdomain-Support: yes"
 
-#: vscf_main.php:7
+#: vscf_main.php:6
 #@ verysimple
 msgid "Name"
 msgstr "Nombre"
 
-#: vscf_main.php:8
+#: vscf_main.php:7
 #@ verysimple
 msgid "Email"
 msgstr "Correo electrónico"
 
-#: vscf_main.php:9
+#: vscf_main.php:8
 #@ verysimple
 msgid "Subject"
 msgstr "Asunto"
 
-#: vscf_main.php:10
+#: vscf_main.php:9
 #@ verysimple
 msgid "Message"
 msgstr "Mensaje"
 
-#: vscf_main.php:11
+#: vscf_main.php:10
 #@ verysimple
 msgid "Submit"
 msgstr "Enviar"
@@ -63,28 +63,28 @@ msgstr ""
 msgid "Guido van der Leest"
 msgstr ""
 
-#: vscf_main.php:12
+#: vscf_main.php:11
 #@ verysimple
 msgid "Please fill in all the required fields"
 msgstr "Por favor, rellene todos los campos requeridos"
 
+#: vscf_main.php:12
 #: vscf_main.php:13
-#: vscf_main.php:14
 #@ verysimple
 msgid "Please enter at least 3 characters"
 msgstr "Por favor, introduzca al menos tres caracteres"
 
-#: vscf_main.php:15
+#: vscf_main.php:14
 #@ verysimple
 msgid "Please enter at least 10 characters"
 msgstr "Por favor, introduzca al menos diez caracteres"
 
-#: vscf_main.php:16
+#: vscf_main.php:15
 #@ verysimple
 msgid "Please enter a valid email"
 msgstr "Por favor, introduzca un correo electrónico válido"
 
-#: vscf_main.php:17
+#: vscf_main.php:16
 #@ verysimple
 msgid "Thanks for your message! I will contact you as soon as I can."
 msgstr "¡Gracias por su mensaje! Le contactaré lo antes posible."
@@ -98,6 +98,6 @@ msgstr "Este es un sencillo formulario de contacto. Utilice el código [contact]
 #. translators: plugin header field 'Version'
 #: vscf_settings.php:0
 #@ verysimple
-msgid "1.5"
+msgid "1.8"
 msgstr ""
 

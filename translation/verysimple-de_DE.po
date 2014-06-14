@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Very Simple Contact Form v1.5\n"
+"Project-Id-Version: Very Simple Contact Form v1.8\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-05-15 16:13:42+0000\n"
+"PO-Revision-Date: 2014-06-14 15:41:59+0000\n"
 "Last-Translator: Guido van der Leest\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -20,27 +20,27 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Textdomain-Support: yes"
 
-#: vscf_main.php:7
+#: vscf_main.php:6
 #@ verysimple
 msgid "Name"
 msgstr "Name"
 
-#: vscf_main.php:8
+#: vscf_main.php:7
 #@ verysimple
 msgid "Email"
 msgstr "E-Mail-Adresse"
 
-#: vscf_main.php:9
+#: vscf_main.php:8
 #@ verysimple
 msgid "Subject"
 msgstr "Objekt"
 
-#: vscf_main.php:10
+#: vscf_main.php:9
 #@ verysimple
 msgid "Message"
 msgstr "Nachricht"
 
-#: vscf_main.php:11
+#: vscf_main.php:10
 #@ verysimple
 msgid "Submit"
 msgstr "Senden"
@@ -63,28 +63,28 @@ msgstr ""
 msgid "Guido van der Leest"
 msgstr ""
 
-#: vscf_main.php:12
+#: vscf_main.php:11
 #@ verysimple
 msgid "Please fill in all the required fields"
 msgstr "Bitte füllen Sie alle erforderlichen Felder aus"
 
+#: vscf_main.php:12
 #: vscf_main.php:13
-#: vscf_main.php:14
 #@ verysimple
 msgid "Please enter at least 3 characters"
 msgstr "Geben Sie bitte mindestens 3 Zeichen ein"
 
-#: vscf_main.php:15
+#: vscf_main.php:14
 #@ verysimple
 msgid "Please enter at least 10 characters"
 msgstr "Geben Sie bitte mindestens 10 Zeichen ein"
 
-#: vscf_main.php:16
+#: vscf_main.php:15
 #@ verysimple
 msgid "Please enter a valid email"
 msgstr "Bitte geben Sie eine gültige E-Mail-Adresse an"
 
-#: vscf_main.php:17
+#: vscf_main.php:16
 #@ verysimple
 msgid "Thanks for your message! I will contact you as soon as I can."
 msgstr "Vielen Dank für Ihre Nachricht. Wir kontaktieren Sie alsbald."
@@ -98,6 +98,6 @@ msgstr "Dies ist ein sehr einfaches Kontaktformular. Verwenden shortcode [contac
 #. translators: plugin header field 'Version'
 #: vscf_settings.php:0
 #@ verysimple
-msgid "1.5"
+msgid "1.8"
 msgstr ""
 
