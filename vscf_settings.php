@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Very Simple Contact Form
  * Description: This is a very simple contact form. Use shortcode [contact] to display form on page. For more info please check readme file.
- * Version: 1.7
+ * Version: 1.8
  * Author: Guido van der Leest
  * Author URI: http://www.guidovanderleest.nl
  * License: GNU General Public License v3 or later
@@ -46,7 +46,7 @@ function vscf_get_the_ip() {
 // function to check inputfield
 function vscf_clean_input($str){
 	$str1 = preg_replace("/(\s){2,}/",'$1',$str);
-	$allowed = "/[^a-z0-9\\040\\.\\-\\_\\\\]/i";
+	$allowed = "/[^a-z0-9\\040\\.\\-\\,]/i";
 	$str1 = preg_replace($allowed,"",$str1);
 	return $str1;
 }

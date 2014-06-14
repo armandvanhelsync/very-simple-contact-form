@@ -1,6 +1,6 @@
 === Very Simple Contact Form ===
 Contributors: Guido07111975
-Version: 1.7
+Version: 1.8
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at Least: 3.7
@@ -10,10 +10,13 @@ Tags: simple, responsive, contact, contactform, email
 
 
 == Changelog ==
+Version 1.8
+- adjusted function vscf_clean_input. Only allowed: letters (a-z), digits (0-10), space, point, hyphen and comma
+- added Brazilian Portuguese translation (thanks Gustavo Lucas)
+
 Version 1.7
 - changed shortcode 'email' into 'email_to' (to avoid possible conflict with the email input field)
 - added name and email in text of message to admin
-- added Brazilian Portuguese translation (thanks Gustavo Lucas)
 
 Version 1.6
 - updated several translation files
@@ -57,7 +60,7 @@ And if you want to use multiple email, use shortcode [contact email_to="first-em
 
 
 == OTHER NOTES ==
-This plugin is translation-ready (Dutch, German, Spanish, French and Hungarian translation included). More translations are very welcome! Please send them to: info@guidovanderleest.nl
+This plugin is translation-ready (Dutch, German, Spanish, Brazilian Portuguese, French and Hungarian translation included). More translations are very welcome! Please send them to: info@guidovanderleest.nl
 You can translate this into your own language using for example plugin Codestyling Localization: http://wordpress.org/plugins/codestyling-localization/
 
 
