@@ -61,7 +61,7 @@ And if you want to use multiple email, use shortcode [contact email_to="first-em
 
 == Frequently Asked Questions ==
 = Why am I not receiving messages? =
-1) Look also in your junk folder
+1) Look also in your junk folder.
 2) Check info about installation and check shortcode for mistakes. 
 3) Messages are send using the wp-mail function, maybe your hostingprovider disabled the php mail function. Ask them to enable it. 
 
