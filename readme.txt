@@ -66,7 +66,7 @@ And if you want to use multiple email, use shortcode [contact email_to="first-em
 3) Messages are send using the wp-mail function, maybe your hostingprovider disabled the php mail function. Ask them to enable it. 
 
 = I notice I cannot enter all kinds of characters, why? =
-Only a few kind of characters are allowed: letters (a-z), digits (0-10), space, point, hyphen and comma. 
+Only few kinds of characters are allowed: letters (a-z), digits (0-10), space, point, hyphen and comma. 
 You can add more by adding them to function vscf_clean_input (file vscf_settings).
 
 = I speak a Slavic language, the messages I receive do not support my language, why? =
