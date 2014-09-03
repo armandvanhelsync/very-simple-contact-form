@@ -1,15 +1,19 @@
 === Very Simple Contact Form ===
 Contributors: Guido07111975
-Version: 1.8
+Version: 1.9
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at Least: 3.7
-Tested up to: 3.9.1
+Tested up to: 3.9.2
 Stable tag: trunk
 Tags: simple, responsive, contact, contactform, email
 
 
 == Changelog ==
+Version 1.9
+- added Croatian translation (thanks Dario Abram)
+- added FAQ
+
 Version 1.8
 - adjusted function vscf_clean_input. Only allowed: letters (a-z), digits (0-10), space, point, hyphen and comma
 - added Brazilian Portuguese translation (thanks Gustavo Lucas)
@@ -46,7 +50,7 @@ Version 1.0
 
 
 == DESCRIPTION ==
-This is a very simple responsive translation-ready contact form. It only contains Name, Email, Subject and Message. Use shortcode [contact] to display form on page. Dutch, German, Spanish, Brazilian Portuguese, French and Hungarian translation included. For more info please check readme file.
+This is a very simple responsive translation-ready contact form. It only contains Name, Email, Subject and Message. Use shortcode [contact] to display form on page. Dutch, German, Spanish, Brazilian Portuguese, French, Croatian and Hungarian translation included. For more info please check readme file.
 
 
 == INSTALLATION == 
@@ -55,12 +59,27 @@ If you want to use another email, use shortcode [contact email_to="your-email-he
 And if you want to use multiple email, use shortcode [contact email_to="first-email-here, second-email-here"].
 
 
+== Frequently Asked Questions ==
+= Why am I not receiving messages? =
+1) Look also in your junk folder
+2) Check info about installation and check shortcode for mistakes. 
+3) Messages are send using the wp-mail function, maybe your hostingprovider disabled the php mail function. Ask them to enable it. 
+
+= I notice I cannot enter all kinds of characters, why? =
+Only a few kind of characters are allowed: letters (a-z), digits (0-10), space, point, hyphen and comma. 
+You can add more by adding them to function vscf_clean_input (file vscf_settings).
+
+= I speak a Slavic language, the messages I receive do not support my language, why? =
+It's because of the default charset I used (UTF-8), for Slavic languages you should use charset ISO-8859-2 (file vscf_main). 
+Besides this you should add Slavic characters to function vscf_clean_input as well.
+
+
 == Screenshots == 
 1. Very Simple Contact Form in frontend of your website (using Twenty Fourteen theme).
 
 
 == OTHER NOTES ==
-This plugin is translation-ready (Dutch, German, Spanish, Brazilian Portuguese, French and Hungarian translation included). More translations are very welcome! Please send them to: info@guidovanderleest.nl
+This plugin is translation-ready (Dutch, German, Spanish, Brazilian Portuguese, French, Croatian and Hungarian translation included). More translations are very welcome! Please send them to: info@guidovanderleest.nl
 You can translate this into your own language using for example plugin Codestyling Localization: http://wordpress.org/plugins/codestyling-localization/
 
 
