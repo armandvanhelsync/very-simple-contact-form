@@ -12,6 +12,7 @@ Tags: simple, responsive, contact, contactform, email
 == Changelog ==
 Version 1.9
 - added Croatian translation (thanks Dario Abram)
+- added Catalan translation (thanks Miquel Serrat)
 - added FAQ
 
 Version 1.8
@@ -50,7 +51,7 @@ Version 1.0
 
 
 == DESCRIPTION ==
-This is a very simple responsive translation-ready contact form. It only contains Name, Email, Subject and Message. Use shortcode [contact] to display form on page. Dutch, German, Spanish, Brazilian Portuguese, French, Croatian and Hungarian translation included. For more info please check readme file.
+This is a very simple responsive translation-ready contact form. It only contains Name, Email, Subject and Message. Use shortcode [contact] to display form on page. Dutch, German, Spanish, Catalan, Brazilian Portuguese, French, Croatian and Hungarian translation included. For more info please check readme file.
 
 
 == INSTALLATION == 
