@@ -20,10 +20,10 @@ function vscf_shortcode($atts) {
 	
 	// get posted data and sanitize them
 		$post_data = array(
-			'form_name' 		=> vscf_clean_input (sanitize_text_field($_POST['form_name'])),
+			'form_name' 		=> sanitize_text_field($_POST['form_name']),
 			'email' 			=> sanitize_email($_POST['email']),
-			'form_subject' 		=> vscf_clean_input (sanitize_text_field($_POST['form_subject'])),
-			'form_message' 		=> vscf_clean_input (sanitize_text_field($_POST['form_message']))
+			'form_subject' 		=> sanitize_text_field($_POST['form_subject']),
+			'form_message' 		=> sanitize_text_field($_POST['form_message'])
 		);
 			
 		$error = false;

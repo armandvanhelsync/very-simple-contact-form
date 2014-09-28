@@ -1,6 +1,6 @@
 === Very Simple Contact Form ===
 Contributors: Guido07111975
-Version: 1.9
+Version: 2.0
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at Least: 3.7
@@ -10,9 +10,14 @@ Tags: simple, responsive, contact, contactform, email
 
 
 == Changelog ==
+Version 2.0
+- major update
+- removed function vscf_clean_input and replaced it with default WP function sanitize_text_field: now all UTF-8 characters are supported!
+- added Catalan translation (thanks Miquel Serrat)
+- updated FAQ
+
 Version 1.9
 - added Croatian translation (thanks Dario Abram)
-- added Catalan translation (thanks Miquel Serrat)
 - added FAQ
 
 Version 1.8
@@ -62,17 +67,15 @@ And if you want to use multiple email, use shortcode [contact email_to="first-em
 
 == Frequently Asked Questions ==
 = Why am I not receiving messages? =
-1) Look also in your junk folder.
+1) Look also in your junk/spam folder.
 2) Check info about installation and check shortcode for mistakes. 
 3) Messages are send using the wp-mail function, maybe your hostingprovider disabled the php mail function. Ask them to enable it. 
 
-= I notice I cannot enter all kinds of characters, why? =
-Only few kinds of characters are allowed: letters (a-z), digits (0-10), space, point, hyphen and comma. 
-You can add more by adding them to function vscf_clean_input (file vscf_settings).
+= Is my language supported too? =
+From version 2.0 all UTF-8 characters are allowed, so many languages are supported.
 
-= I speak a Slavic language, the messages I receive do not support my language, why? =
-It's because of the default charset I used (UTF-8), for Slavic languages you should use charset ISO-8859-2 (file vscf_main). 
-Besides this you should add Slavic characters to function vscf_clean_input as well.
+= Other question or comment? =
+Please open a topic in plugin forum or send me a message via my website.
 
 
 == Screenshots == 
@@ -80,7 +83,7 @@ Besides this you should add Slavic characters to function vscf_clean_input as we
 
 
 == OTHER NOTES ==
-This plugin is translation-ready (Dutch, German, Spanish, Brazilian Portuguese, French, Croatian and Hungarian translation included). More translations are very welcome! Please send them to: info@guidovanderleest.nl
+This plugin is translation-ready (Dutch, German, Spanish, Catalan, Brazilian Portuguese, French, Croatian and Hungarian translation included). More translations are very welcome! Please send them to: info@guidovanderleest.nl
 You can translate this into your own language using for example plugin Codestyling Localization: http://wordpress.org/plugins/codestyling-localization/
 
 
