@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Very Simple Contact Form v1.9\n"
+"Project-Id-Version: Very Simple Contact Form v2.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-06-14 15:42:11+0000\n"
+"PO-Revision-Date: 2014-10-17 15:33:54+0000\n"
 "Last-Translator: Guido van der Leest\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -98,6 +98,6 @@ msgstr "Dit is een zeer eenvoudig contactformulier. Gebruik shortcode [contact] 
 #. translators: plugin header field 'Version'
 #: vscf_settings.php:0
 #@ verysimple
-msgid "1.8"
+msgid "2.1"
 msgstr ""
 
