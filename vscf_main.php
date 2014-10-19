@@ -59,7 +59,7 @@ function vscf_shortcode($atts) {
 
 	// message 
 	if($result != "") {
-		$info .= '<div class="info">'.$result.'</div>';
+		$info .= '<div class="vscf_info">'.$result.'</div>';
 	}
 
 	// the contact form with error messages
@@ -82,7 +82,7 @@ function vscf_shortcode($atts) {
 			
 		</div>
 		<div>
-			<input type="submit" value="'.$label_submit.'" name="form_send" id="vscf_send" />
+			<input type="submit" value="'.$label_submit.'" name="form_send" class="vscf_send" id="vscf_send" />
 		</div>
 	</form>';
 	

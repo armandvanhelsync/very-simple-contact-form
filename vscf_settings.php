@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Very Simple Contact Form
  * Description: This is a very simple contact form. Use shortcode [contact] to display form on page. For more info please check readme file.
- * Version: 2.1
+ * Version: 2.2
  * Author: Guido van der Leest
  * Author URI: http://www.guidovanderleest.nl
  * License: GNU General Public License v3 or later
@@ -11,13 +11,11 @@
  * Domain Path: translation
  */
 
-
 // Load the plugin's text domain
 function vscf_init() { 
 	load_plugin_textdomain( 'verysimple', false, dirname( plugin_basename( __FILE__ ) ) . '/translation' );
 }
 add_action('plugins_loaded', 'vscf_init');
- 
 
 // Enqueues plugin scripts
 function vscf_scripts() {	
@@ -27,7 +25,6 @@ function vscf_scripts() {
 	}
 }
 add_action('wp_enqueue_scripts', 'vscf_scripts');
-
 
 // function to get the IP address of the user
 function vscf_get_the_ip() {

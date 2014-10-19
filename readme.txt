@@ -1,6 +1,6 @@
 === Very Simple Contact Form ===
 Contributors: Guido07111975
-Version: 2.1
+Version: 2.2
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at Least: 3.7
@@ -10,6 +10,11 @@ Tags: simple, responsive, contact, contactform, email
 
 
 == Changelog ==
+Version 2.2
+- added Danish language (thanks Børge Kolding)
+- updated FAQ
+- adjusted stylesheet again
+
 Version 2.1
 - adjusted stylesheet
 - updated language files
@@ -60,7 +65,7 @@ Version 1.0
 
 
 == DESCRIPTION ==
-This is a very simple responsive translation-ready contact form. It only contains Name, Email, Subject and Message. Use shortcode [contact] to display form on page. Dutch, German, Spanish, Catalan, Brazilian Portuguese, French, Croatian and Hungarian translation included. For more info please check readme file.
+This is a very simple responsive translation-ready contact form. It only contains Name, Email, Subject and Message. Use shortcode [contact] to display form on page. Dutch, German, French, Danish, Spanish, Catalan, Brazilian Portuguese, Croatian and Hungarian translation included. For more info please check readme file.
 
 
 == INSTALLATION == 
@@ -78,6 +83,13 @@ And if you want to use multiple email, use shortcode [contact email_to="first-em
 = Is my language supported too? =
 From version 2.0 all UTF-8 characters are allowed, so many languages are supported.
 
+= Is this plugin protected against spammers, bots, etc?
+The default WordPress sanitization function is included.
+For email field:
+http://codex.wordpress.org/Function_Reference/sanitize_email
+For other fields:
+http://codex.wordpress.org/Function_Reference/sanitize_text_field
+
 = Other question or comment? =
 Please open a topic in plugin forum or send me a message via my website.
 
@@ -87,7 +99,7 @@ Please open a topic in plugin forum or send me a message via my website.
 
 
 == OTHER NOTES ==
-This plugin is translation-ready (Dutch, German, Spanish, Catalan, Brazilian Portuguese, French, Croatian and Hungarian translation included). More translations are very welcome! Please send them to: info@guidovanderleest.nl
+This plugin is translation-ready (Dutch, German, French, Danish, Spanish, Catalan, Brazilian Portuguese, Croatian and Hungarian Hungarian translation included). Please contact me via my website.
 You can translate this into your own language using for example plugin Codestyling Localization: http://wordpress.org/plugins/codestyling-localization/
 
 
