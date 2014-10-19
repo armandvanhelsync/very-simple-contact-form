@@ -83,10 +83,12 @@ And if you want to use multiple email, use shortcode [contact email_to="first-em
 = Is my language supported too? =
 From version 2.0 all UTF-8 characters are allowed, so many languages are supported.
 
-= Is this plugin protected against spammers, bots, etc?
+= Is this plugin protected against spammers, bots, etc? =
 The default WordPress sanitization function is included.
+
 For email field:
 http://codex.wordpress.org/Function_Reference/sanitize_email
+
 For other fields:
 http://codex.wordpress.org/Function_Reference/sanitize_text_field
 
