@@ -11,7 +11,7 @@ Tags: simple, responsive, contact, contactform, email
 
 == Changelog ==
 Version 2.2
-- added Danish language (thanks Børge Kolding)
+- added Danish language (thanks Borge Kolding)
 - updated FAQ
 - adjusted stylesheet again
 
