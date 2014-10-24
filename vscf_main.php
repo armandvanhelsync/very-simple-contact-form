@@ -74,7 +74,7 @@ function vscf_shortcode($atts) {
 		</div>
 		<div>
 			<label for="vscf_subject">'.$label_subject.': <span class="error '.((isset($error_class['form_subject']))?"":" hide").'" >'.$error_form_subject.'</span></label>
-			<input type="text" name="form_subject" id="vscf_subject" maxlength="50"  class="'.$error_class['form_subject'].'"  value="'.$subject.$form_data['form_subject'].'" />
+			<input type="text" name="form_subject" id="vscf_subject" class="'.$error_class['form_subject'].'" maxlength="50" value="'.$form_data['form_subject'].'" />
 		</div>
 		<div>
 			<label for="vscf_message">'.$label_message.': <span class="error '.((isset($error_class['form_message']))?"":" hide").'" >'.$error_form_message.'</span></label>
