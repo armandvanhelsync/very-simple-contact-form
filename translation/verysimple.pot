@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Very Simple Contact Form v2.2\n"
+"Project-Id-Version: Very Simple Contact Form v2.4\n"
 "POT-Creation-Date: 2014-03-06 19:24+0100\n"
 "PO-Revision-Date: 2014-03-06 19:26+0100\n"
 "Last-Translator: \n"
@@ -87,7 +87,18 @@ msgstr ""
 #. translators: plugin header field 'Version'
 #: vscf_settings.php:0
 #@ verysimple
-msgid "2.1"
+msgid "2.4"
 msgstr ""
+
+#: vscf_main.php:15
+#@ verysimple
+msgid "Fill in number"
+msgstr ""
+
+#: vscf_main.php:21
+#@ verysimple
+msgid "Please fill in the correct number"
+msgstr ""
+
 
 
