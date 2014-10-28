@@ -1,7 +1,4 @@
 /* Very Simple Contact Form */
-
-
-/* The Form */
 #vscf { clear:both; }
 
 /* Label and Input fields */
@@ -10,7 +7,7 @@
 #vscf_message { display:block; margin:10px 0; border:1px solid #ccc; padding:5px; font-size:1em; width:90%; }
 #vscf input, #vscf textarea { -webkit-appearance:none; -moz-appearance:none; }
 
-/* The 2 Honeypot fields */
+/* Hide the 2 Honeypot fields */
 #vscf_firstname, #vscf_lastname { display:block; margin:10px 0; border:1px solid #ccc; padding:5px; font-size:1em; width:70%; visibility:hidden; display:none; }
 
 /* Submit button */
