@@ -6,12 +6,12 @@
 
 /* Label and Input fields */
 #vscf label { clear:both; font-size:1em; text-transform:none; font-weight:normal; }
-#vscf_name, #vscf_email, #vscf_subject, #vscf_sum { clear:both; margin:10px 0; border:1px solid #ccc; padding:5px; font-size:1em; width:70%; }
+#vscf_name, #vscf_email, #vscf_subject, #vscf_sum { display:block; margin:10px 0; border:1px solid #ccc; padding:5px; font-size:1em; width:70%; }
 #vscf_message { display:block; margin:10px 0; border:1px solid #ccc; padding:5px; font-size:1em; width:90%; }
 #vscf input, #vscf textarea { -webkit-appearance:none; -moz-appearance:none; }
 
 /* The 2 Honeypot fields */
-#vscf_firstname, #vscf_lastname { clear:both; margin:10px 0; border:1px solid #ccc; padding:5px; font-size:1em; width:70%; visibility:hidden; display:none; }
+#vscf_firstname, #vscf_lastname { display:block; margin:10px 0; border:1px solid #ccc; padding:5px; font-size:1em; width:70%; visibility:hidden; display:none; }
 
 /* Submit button */
 #vscf_send { margin:5px 0; padding:5px; width:8em; border:1px solid #ccc; background:#f8f8f8; color:#333; font-size:1em; text-transform:none; font-weight:normal; }
