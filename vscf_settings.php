@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Very Simple Contact Form
  * Description: This is a very simple contact form. Use shortcode [contact] to display form on page. For more info please check readme file.
- * Version: 2.3
+ * Version: 2.4
  * Author: Guido van der Leest
  * Author URI: http://www.guidovanderleest.nl
  * License: GNU General Public License v3 or later

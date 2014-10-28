@@ -1,22 +1,28 @@
 === Very Simple Contact Form ===
 Contributors: Guido07111975
-Version: 2.3
+Version: 2.4
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at Least: 3.7
 Tested up to: 4.1
 Stable tag: trunk
-Tags: simple, responsive, contact, contactform, email
+Tags: simple, responsive, contact, contactform, email, honeypot, captcha
 
 
 == Changelog ==
+Version 2.4
+- major update
+- added anti-spam: honeypot fields and a simple captcha sum
+- adjusted stylesheet
+- updated language files
+
 Version 2.3
 - fixed small coding error in file vscf_main
 
 Version 2.2
 - added Danish language (thanks Borge Kolding)
 - updated FAQ
-- adjusted stylesheet again
+- adjusted stylesheet
 
 Version 2.1
 - adjusted stylesheet
@@ -70,7 +76,7 @@ Version 1.0
 == DESCRIPTION ==
 This is a very simple responsive translation-ready contact form. 
 
-It only contains Name, Email, Subject and Message. 
+It only contains Name, Email, Subject and Message. And a simple captcha sum. 
 
 Use shortcode [contact] to display form on page. 
 
@@ -80,8 +86,12 @@ For more info please check readme file.
 
 
 == INSTALLATION == 
-After installation please add shortcode [contact] on your contactpage for displaying the form. In this case messages will be send to email from admin (Settings > General).
+After installation please add shortcode [contact] on your contactpage for displaying the form. 
+
+In this case messages will be send to email from admin (Settings > General).
+
 If you want to use another email, use shortcode [contact email_to="your-email-here"].
+
 And if you want to use multiple email, use shortcode [contact email_to="first-email-here, second-email-here"].
 
 
@@ -95,6 +105,7 @@ And if you want to use multiple email, use shortcode [contact email_to="first-em
 
 = Is my language supported too? =
 From version 2.0 all UTF-8 characters are allowed, so many languages are supported.
+But the plugin itself is only translated in several languages. 
 
 = Is this plugin protected against spammers, bots, etc? =
 The default WordPress sanitization function is included.
@@ -107,12 +118,16 @@ For other fields:
 
 http://codex.wordpress.org/Function_Reference/sanitize_text_field
 
+From version 2.4 it also contains honeypot fields and a simple captcha sum.
+
 = Other question or comment? =
 Please open a topic in plugin forum or send me a message via my website.
 
 
 == Screenshots == 
-1. Very Simple Contact Form in frontend of your website (using Twenty Fourteen theme).
+1. Very Simple Contact Form in frontend (using Twenty Fourteen theme).
+
+2. Very Simple Contact Form in frontend (using Twenty Fourteen theme).
 
 
 == OTHER NOTES ==
@@ -120,7 +135,9 @@ This plugin is translation-ready (Dutch, German, French, Danish, Spanish, Catala
 
 More translations are very welcome! Please contact me via my website.
 
-You can translate this into your own language using for example plugin Codestyling Localization: http://wordpress.org/plugins/codestyling-localization/
+You can translate this into your own language using for example plugin Codestyling Localization: 
+
+http://wordpress.org/plugins/codestyling-localization/
 
 
 == CREDITS ==

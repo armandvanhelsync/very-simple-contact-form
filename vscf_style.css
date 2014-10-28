@@ -1,12 +1,23 @@
 /* Very Simple Contact Form */
 
+/* Label and Input fields */
 #vscf label { clear:both: font-size:1em; text-transform:none; font-weight:normal; }
-#vscf_name, #vscf_email, #vscf_subject { display:block; margin:10px 0; border:1px solid #ccc; padding:5px; font-size:1em; width:70%; }
+#vscf_name, #vscf_email, #vscf_subject, #vscf_sum, #vscf_firstname, #vscf_lastname { display:block; margin:10px 0; border:1px solid #ccc; padding:5px; font-size:1em; width:70%; }
 #vscf_message { display:block; margin:10px 0; border:1px solid #ccc; padding:5px; font-size:1em; width:90%; }
+#vscf input, #vscf textarea { -webkit-appearance:none; -moz-appearance:none; }
+
+/* Submit button */
 #vscf_send { margin:5px 0; padding:5px; width:8em; border:1px solid #ccc; background:#f8f8f8; color:#333; font-size:1em; text-transform:none; font-weight:normal; }
 #vscf_send:hover { background:#f2f2f2; } 
+
+/* Hide the 2 Honeypot fields */
+#vscf_firstname, #vscf_lastname { visibility:hidden; display:none; }
+
+/* Input fields error */
 #vscf input.error { border-color:#e77776; }
 #vscf textarea.error { border-color:#e77776; }
+
+/* Error and Thank You message */
 #vscf .error { color:#e77776; }
 #vscf .hide { display:none; }
 .vscf_info { clear:both; margin:0 0 10px; font-style:italic; font-size:1.25em; }
