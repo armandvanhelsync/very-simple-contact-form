@@ -101,6 +101,8 @@ And if you want to use multiple email, use shortcode [contact email_to="first-em
 
 Note: the sidebar widget uses shortcode [contact].
 
+Do not add shortcode [contact] on your contactpage AND use the widget on the same website, this may cause a conflict. I wil try to solve this in next update.
+
 
 == Frequently Asked Questions ==
 = Why am I not receiving messages? =
@@ -150,7 +152,7 @@ http://wordpress.org/plugins/codestyling-localization/
 == CREDITS ==
 Without the WordPress codex and help from the WordPress community I was not able to develop this plugin, so: thank you!
 
-I used this scripts for developing the Very Simple Contact Form:
+I used these scripts for developing the Very Simple Contact Form:
 
 http://code.tutsplus.com/articles/creating-a-simple-contact-form-for-simple-needs--wp-27893
 
