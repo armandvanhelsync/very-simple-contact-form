@@ -101,7 +101,7 @@ And if you want to use multiple email, use shortcode [contact email_to="first-em
 
 Note: the sidebar widget uses shortcode [contact].
 
-Note: don't add multiple forms on the same website. And don't use the shortcode [contact] on your contactpage and use the widget on the same website. This may cause a conflict. I wil try to solve this in next update.
+Note: don't use multiple forms on the same website. And don't use the shortcode on your contactpage and use the widget on the same website. This may cause a conflict. I wil try to solve this in next update.
 
 
 == Frequently Asked Questions ==
@@ -112,8 +112,8 @@ Note: don't add multiple forms on the same website. And don't use the shortcode 
 
 3) Messages are send using the wp-mail function, maybe your hostingprovider disabled the php mail function. Ask them to enable it. 
 
-= Can I add multiple forms on the same website? =
-No, don't add multiple forms on the same website. And don't use the shortcode [contact] on your contactpage and use the widget on the same website. This may cause a conflict. I wil try to solve this in next update.
+= Can I use multiple forms on the same website? =
+No, don't use multiple forms on the same website. And don't use the shortcode on your contactpage and use the widget on the same website. This may cause a conflict. I wil try to solve this in next update.
 
 = Is my language supported too? =
 From version 2.0 all UTF-8 characters are allowed, so many languages are supported.
