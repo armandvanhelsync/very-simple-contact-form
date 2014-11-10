@@ -1,15 +1,20 @@
 === Very Simple Contact Form ===
 Contributors: Guido07111975
-Version: 2.4
+Version: 2.5
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at Least: 3.7
-Tested up to: 4.1
+Tested up to: 4.0
 Stable tag: trunk
-Tags: simple, responsive, contact, contactform, email, honeypot, captcha
+Tags: simple, responsive, contact, contactform, email, honeypot, captcha, widget
 
 
 == Changelog ==
+Version 2.5
+- major update
+- added Very Simple Contact Form widget: now you can display form in sidebar too
+- updated language files
+
 Version 2.4
 - major update
 - added anti-spam: honeypot fields and a simple captcha sum
@@ -78,7 +83,7 @@ This is a very simple responsive translation-ready contact form.
 
 It only contains Name, Email, Subject and Message. And a simple captcha sum. 
 
-Use shortcode [contact] to display form on page. 
+Use shortcode [contact] to display form on page or use the widget to display form in sidebar.
 
 Dutch, German, French, Danish, Spanish, Catalan, Brazilian Portuguese, Croatian and Hungarian translation included. 
 
@@ -93,6 +98,8 @@ In this case messages will be send to email from admin (Settings > General).
 If you want to use another email, use shortcode [contact email_to="your-email-here"].
 
 And if you want to use multiple email, use shortcode [contact email_to="first-email-here, second-email-here"].
+
+Note: the sidebar widget uses shortcode [contact].
 
 
 == Frequently Asked Questions ==
@@ -143,11 +150,13 @@ http://wordpress.org/plugins/codestyling-localization/
 == CREDITS ==
 Without the WordPress codex and help from the WordPress community I was not able to develop this plugin, so: thank you!
 
-I used this script for developing the Very Simple Contact Form:
+I used this scripts for developing the Very Simple Contact Form:
 
 http://code.tutsplus.com/articles/creating-a-simple-contact-form-for-simple-needs--wp-27893
 
-This script is released under the GNU General Public License v3 or later
+http://code.tutsplus.com/articles/building-custom-wordpress-widgets--wp-25241
+
+These scripts are released under the GNU General Public License v3 or later
 
 
 Enjoy,

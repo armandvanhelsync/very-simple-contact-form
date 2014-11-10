@@ -22,3 +22,6 @@
 #vscf .error { color:#e77776; }
 #vscf .hide { display:none; }
 .vscf_info { clear:both; margin:0 0 10px; font-style:italic; font-size:1.25em; }
+
+/* Widget */
+.vscf_sidebar {}

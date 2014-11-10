@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: Very Simple Contact Form
- * Description: This is a very simple contact form. Use shortcode [contact] to display form on page. For more info please check readme file.
- * Version: 2.4
+ * Description: This is a very simple contact form. Use shortcode [contact] to display form on page or use the widget. For more info please check readme file.
+ * Version: 2.5
  * Author: Guido van der Leest
  * Author URI: http://www.guidovanderleest.nl
  * License: GNU General Public License v3 or later
@@ -26,6 +26,12 @@ function vscf_scripts() {
 }
 add_action('wp_enqueue_scripts', 'vscf_scripts');
 
+// The sidebar widget
+function register_vscf_widget() {
+	register_widget( 'vscf_widget' );
+}
+add_action( 'widgets_init', 'register_vscf_widget' );
+
 // function to get the IP address of the user
 function vscf_get_the_ip() {
 	if (isset($_SERVER["HTTP_X_FORWARDED_FOR"])) {
@@ -40,5 +46,6 @@ function vscf_get_the_ip() {
 }
 
 include 'vscf_main.php';
+include 'vscf_widget.php';
 
 ?>
