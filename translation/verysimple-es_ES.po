@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Very Simple Contact Form v2.5\n"
+"Project-Id-Version: Very Simple Contact Form v2.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-11-10 10:24:18+0000\n"
+"PO-Revision-Date: 2014-12-07 17:08:33+0000\n"
 "Last-Translator: Alvaro Reig Gonzalez\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -21,26 +21,31 @@ msgstr ""
 "X-Textdomain-Support: yes"
 
 #: vscf_main.php:11
+#: vscf_widget_form.php:11
 #@ verysimple
 msgid "Name"
 msgstr "Nombre"
 
 #: vscf_main.php:12
+#: vscf_widget_form.php:12
 #@ verysimple
 msgid "Email"
 msgstr "Correo electrónico"
 
 #: vscf_main.php:13
+#: vscf_widget_form.php:13
 #@ verysimple
 msgid "Subject"
 msgstr "Asunto"
 
 #: vscf_main.php:14
+#: vscf_widget_form.php:14
 #@ verysimple
 msgid "Message"
 msgstr "Mensaje"
 
 #: vscf_main.php:16
+#: vscf_widget_form.php:16
 #@ verysimple
 msgid "Submit"
 msgstr "Enviar"
@@ -66,27 +71,33 @@ msgid "Guido van der Leest"
 msgstr ""
 
 #: vscf_main.php:17
+#: vscf_widget_form.php:17
 #@ verysimple
 msgid "Please fill in all the required fields"
 msgstr "Por favor, rellene todos los campos requeridos"
 
 #: vscf_main.php:18
 #: vscf_main.php:19
+#: vscf_widget_form.php:18
+#: vscf_widget_form.php:19
 #@ verysimple
 msgid "Please enter at least 3 characters"
 msgstr "Por favor, introduzca al menos tres caracteres"
 
 #: vscf_main.php:20
+#: vscf_widget_form.php:20
 #@ verysimple
 msgid "Please enter at least 10 characters"
 msgstr "Por favor, introduzca al menos diez caracteres"
 
 #: vscf_main.php:22
+#: vscf_widget_form.php:22
 #@ verysimple
 msgid "Please enter a valid email"
 msgstr "Por favor, introduzca un correo electrónico válido"
 
 #: vscf_main.php:23
+#: vscf_widget_form.php:23
 #@ verysimple
 msgid "Thanks for your message! I will contact you as soon as I can."
 msgstr "¡Gracias por su mensaje! Le contactaré lo antes posible."
@@ -98,20 +109,16 @@ msgid "This is a very simple contact form. Use shortcode [contact] to display fo
 msgstr "Este es un sencillo formulario de contacto. Utilice el código [contact] para mostrar el formulario en la pagina o utilizar el widget. Para más información consulte el fichero de README."
 
 #: vscf_main.php:15
+#: vscf_widget_form.php:15
 #@ verysimple
 msgid "Fill in number"
 msgstr "Rellene número"
 
 #: vscf_main.php:21
+#: vscf_widget_form.php:21
 #@ verysimple
 msgid "Please fill in the correct number"
 msgstr "Por favor, rellene el número correcto"
-
-#. translators: plugin header field 'Version'
-#: vscf_settings.php:0
-#@ verysimple
-msgid "2.5"
-msgstr ""
 
 #: vscf_widget.php:7
 #@ verysimple
@@ -122,4 +129,10 @@ msgstr ""
 #@ verysimple
 msgid "Widget Title:"
 msgstr "Título del widget:"
+
+#. translators: plugin header field 'Version'
+#: vscf_settings.php:0
+#@ verysimple
+msgid "2.6"
+msgstr ""
 
