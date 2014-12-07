@@ -20,7 +20,7 @@ class vscf_widget extends WP_Widget {
 		// Display title and form
 		if ( $title )
 			echo $before_title . $title . $after_title;
-			echo do_shortcode( '[contact]' );
+			echo do_shortcode( '[contact-widget]' );
 
 		echo $after_widget;
 	}

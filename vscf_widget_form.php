@@ -2,10 +2,10 @@
 
 // Start session for captcha validation
 session_start();
-$_SESSION['vscf-rand'] = isset($_SESSION['vscf-rand']) ? $_SESSION['vscf-rand'] : rand(100, 999);
+$_SESSION['vscf-widget-rand'] = isset($_SESSION['vscf-widget-rand']) ? $_SESSION['vscf-widget-rand'] : rand(100, 999);
 
 // The shortcode
-function vscf_shortcode($atts) {
+function vscf_widget_shortcode($atts) {
 	extract(shortcode_atts(array(
 		"email_to" 			=> get_bloginfo('admin_email'),
 		"label_name" 			=> __('Name', 'verysimple') ,
@@ -23,7 +23,7 @@ function vscf_shortcode($atts) {
 		"success" 				=> __("Thanks for your message! I will contact you as soon as I can.", "verysimple"),
 	), $atts));
 
-	if (($_SERVER['REQUEST_METHOD'] == 'POST') && isset($_POST['form_send']) ) {
+	if (($_SERVER['REQUEST_METHOD'] == 'POST') && isset($_POST['widget_form_send']) ) {
 	
 	// Get posted data and sanitize them
 		$post_data = array(
@@ -59,7 +59,7 @@ function vscf_shortcode($atts) {
 			$value = stripslashes(trim($post_data[$sum_field]));
 
 		// Displaying error message if validation failed for each input field
-			if ($_POST['form_sum'] != $_SESSION['vscf-rand']) { 
+			if ($_POST['form_sum'] != $_SESSION['vscf-widget-rand']) { 
 				$error_class[$sum_field] = "error";
 				$error_msg[$sum_field] = ${"error_".$sum_field};
 				$error = true;
@@ -112,7 +112,7 @@ function vscf_shortcode($atts) {
 			<input type="text" name="form_subject" id="vscf_subject" class="'.$error_class['form_subject'].'" maxlength="50" value="'.$form_data['form_subject'].'" />
 		</div>
 		<div>
-			<label for="vscf_sum">'.$label_sum.' '. $_SESSION['vscf-rand'].': <span class="error '.((isset($error_class['form_sum']))?"":" hide").'" >'.$error_form_sum.'</span></label>
+			<label for="vscf_sum">'.$label_sum.' '. $_SESSION['vscf-widget-rand'].': <span class="error '.((isset($error_class['form_sum']))?"":" hide").'" >'.$error_form_sum.'</span></label>
 			<input type="text" name="form_sum" id="vscf_sum" class="'.$error_class['form_sum'].'" maxlength="50" value="'.$form_data['form_sum'].'" />
 		</div>
 		<div>
@@ -127,19 +127,19 @@ function vscf_shortcode($atts) {
 			<textarea name="form_message" id="vscf_message" rows="10" class="'.$error_class['form_message'].'" >'.$form_data['form_message'].'</textarea>
 		</div>
 		<div>
-			<input type="submit" value="'.$label_submit.'" name="form_send" class="vscf_send" id="vscf_send" />
+			<input type="submit" value="'.$label_submit.'" name="widget_form_send" class="vscf_send" id="vscf_send" />
 		</div>
 	</form>';
 	
 	// Send message and erase captcha session or display form with error messages
 	if($sent == true) {
-		unset($_SESSION['vscf-rand']);
+		unset($_SESSION['vscf-widget-rand']);
 		return $info;
 	} else {
 		return $info.$email_form;
 	}
 } 
 
-add_shortcode('contact', 'vscf_shortcode');
+add_shortcode('contact-widget', 'vscf_widget_shortcode');
 
 ?>

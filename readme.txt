@@ -1,17 +1,23 @@
 === Very Simple Contact Form ===
 Contributors: Guido07111975
-Version: 2.5
+Version: 2.6
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at Least: 3.7
-Tested up to: 4.0
+Tested up to: 4.1
 Stable tag: trunk
 Tags: simple, responsive, contact, contactform, email, honeypot, captcha, widget
 
 
 == Changelog ==
+Version 2.6
+- added file vscf_widget_form
+- fixed bug with widget: now you can use form and widget on same website
+- updated language files
+
 Version 2.5
 - major update
+- added file vscf_widget
 - added Very Simple Contact Form widget: now you can display form in sidebar too
 - updated language files
 
@@ -99,9 +105,7 @@ If you want to use another email, use shortcode [contact email_to="your-email-he
 
 And if you want to use multiple email, use shortcode [contact email_to="first-email-here, second-email-here"].
 
-Note: the sidebar widget uses shortcode [contact].
-
-Note: don't use multiple forms on the same website. And don't use the shortcode on your contactpage and use the widget on the same website. This may cause a conflict. I wil try to solve this in next update.
+Note: the sidebar widget uses email from admin (Settings > General).
 
 
 == Frequently Asked Questions ==
@@ -113,7 +117,7 @@ Note: don't use multiple forms on the same website. And don't use the shortcode 
 3) Messages are send using the wp-mail function, maybe your hostingprovider disabled the php mail function. Ask them to enable it. 
 
 = Can I use multiple forms on the same website? =
-No, don't use multiple forms on the same website. And don't use the shortcode on your contactpage and use the widget on the same website. This may cause a conflict. I wil try to solve this in next update.
+Yes and no. Don't use multiple forms on the same website. This may cause a conflict. But from version 2.6 you can use the shortcode on your contactpage and the widget on the same website.
 
 = Is my language supported too? =
 From version 2.0 all UTF-8 characters are allowed, so many languages are supported.
