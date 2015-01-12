@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Very Simple Contact Form v2.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-12-07 17:08:37+0000\n"
+"PO-Revision-Date: 2015-01-12 17:55:43+0000\n"
 "Last-Translator: Curlybracket\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -112,13 +112,13 @@ msgstr "C'est un formulaire de contact très simple. Utilisez le shortcode [cont
 #: vscf_widget_form.php:15
 #@ verysimple
 msgid "Fill in number"
-msgstr "Remplir nombre"
+msgstr "Remplir le nombre"
 
 #: vscf_main.php:21
 #: vscf_widget_form.php:21
 #@ verysimple
 msgid "Please fill in the correct number"
-msgstr "Veuillez remplir correcte nombre"
+msgstr "Veuillez remplir avec le nombre correct"
 
 #: vscf_widget.php:7
 #@ verysimple
