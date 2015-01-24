@@ -1,6 +1,6 @@
 === Very Simple Contact Form ===
 Contributors: Guido07111975
-Version: 2.6
+Version: 2.7
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at Least: 3.7
@@ -10,6 +10,10 @@ Tags: simple, responsive, contact, contactform, email, honeypot, captcha, widget
 
 
 == Changelog ==
+Version 2.7
+- added Polish translation (thanks Milosz Raczkowski)
+- replaced all divs with paragraph tags for better form display
+
 Version 2.6
 - added file vscf_widget_form
 - fixed bug with widget: now you can use form and widget on same website
@@ -91,7 +95,7 @@ It only contains Name, Email, Subject and Message. And a simple captcha sum.
 
 Use shortcode [contact] to display form on page or use the widget to display form in sidebar.
 
-Dutch, German, French, Danish, Spanish, Catalan, Brazilian Portuguese, Croatian and Hungarian translation included. 
+Dutch, German, French, Danish, Spanish, Catalan, Brazilian Portuguese, Polish, Croatian and Hungarian translation included. 
 
 For more info please check readme file.
 
@@ -147,7 +151,7 @@ Please open a topic in plugin forum or send me a message via my website.
 
 
 == OTHER NOTES ==
-This plugin is translation-ready (Dutch, German, French, Danish, Spanish, Catalan, Brazilian Portuguese, Croatian and Hungarian Hungarian translation included). 
+This plugin is translation-ready (Dutch, German, French, Danish, Spanish, Catalan, Brazilian Portuguese, Polish, Croatian and Hungarian Hungarian translation included). 
 
 More translations are very welcome! Please contact me via my website.
 

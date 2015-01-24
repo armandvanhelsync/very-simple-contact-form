@@ -94,41 +94,33 @@ function vscf_shortcode($atts) {
 
 	// Message 
 	if($result != "") {
-		$info .= '<div class="vscf_info">'.$result.'</div>';
+		$info .= '<p class="vscf_info">'.$result.'</p>';
 	}
 
 	// The contact form with error messages
 	$email_form = '<form class="vscf" id="vscf" method="post" action="">
-		<div>
-			<label for="vscf_name">'.$label_name.': <span class="error '.((isset($error_class['form_name']))?"":" hide").'" >'.$error_form_name.'</span></label>
-			<input type="text" name="form_name" id="vscf_name" class="'.$error_class['form_name'].'" maxlength="50" value="'.$form_data['form_name'].'" />
-		</div>
-		<div>
-			<label for="vscf_email">'.$label_email.': <span class="error '.((isset($error_class['email']))?"":" hide").'" >'.$error_email.'</span></label>
-			<input type="text" name="email" id="vscf_email" class="'.$error_class['email'].'" maxlength="50" value="'.$form_data['email'].'" />
-		</div>
-		<div>
-			<label for="vscf_subject">'.$label_subject.': <span class="error '.((isset($error_class['form_subject']))?"":" hide").'" >'.$error_form_subject.'</span></label>
-			<input type="text" name="form_subject" id="vscf_subject" class="'.$error_class['form_subject'].'" maxlength="50" value="'.$form_data['form_subject'].'" />
-		</div>
-		<div>
-			<label for="vscf_sum">'.$label_sum.' '. $_SESSION['vscf-rand'].': <span class="error '.((isset($error_class['form_sum']))?"":" hide").'" >'.$error_form_sum.'</span></label>
-			<input type="text" name="form_sum" id="vscf_sum" class="'.$error_class['form_sum'].'" maxlength="50" value="'.$form_data['form_sum'].'" />
-		</div>
-		<div>
-			<input type="text" name="form_firstname" id="vscf_firstname" class="'.$error_class['form_firstname'].'" maxlength="50" value="'.$form_data['form_firstname'].'" />
-		</div>
-
-		<div>
-			<input type="text" name="form_lastname" id="vscf_lastname" class="'.$error_class['form_lastname'].'" maxlength="50" value="'.$form_data['form_lastname'].'" />
-		</div>
-		<div>
-			<label for="vscf_message">'.$label_message.': <span class="error '.((isset($error_class['form_message']))?"":" hide").'" >'.$error_form_message.'</span></label>
-			<textarea name="form_message" id="vscf_message" rows="10" class="'.$error_class['form_message'].'" >'.$form_data['form_message'].'</textarea>
-		</div>
-		<div>
-			<input type="submit" value="'.$label_submit.'" name="form_send" class="vscf_send" id="vscf_send" />
-		</div>
+		
+		<p><label for="vscf_name">'.$label_name.': <span class="error '.((isset($error_class['form_name']))?"":" hide").'" >'.$error_form_name.'</span></label></p>
+		<p><input type="text" name="form_name" id="vscf_name" class="'.$error_class['form_name'].'" maxlength="50" value="'.$form_data['form_name'].'" /></p>
+		
+		<p><label for="vscf_email">'.$label_email.': <span class="error '.((isset($error_class['email']))?"":" hide").'" >'.$error_email.'</span></label></p>
+		<p><input type="text" name="email" id="vscf_email" class="'.$error_class['email'].'" maxlength="50" value="'.$form_data['email'].'" /></p>
+		
+		<p><label for="vscf_subject">'.$label_subject.': <span class="error '.((isset($error_class['form_subject']))?"":" hide").'" >'.$error_form_subject.'</span></label></p>
+		<p><input type="text" name="form_subject" id="vscf_subject" class="'.$error_class['form_subject'].'" maxlength="50" value="'.$form_data['form_subject'].'" /></p>
+		
+		<p><label for="vscf_sum">'.$label_sum.' '. $_SESSION['vscf-rand'].': <span class="error '.((isset($error_class['form_sum']))?"":" hide").'" >'.$error_form_sum.'</span></label></p>
+		<p><input type="text" name="form_sum" id="vscf_sum" class="'.$error_class['form_sum'].'" maxlength="50" value="'.$form_data['form_sum'].'" /></p>
+		
+		<p><input type="text" name="form_firstname" id="vscf_firstname" class="'.$error_class['form_firstname'].'" maxlength="50" value="'.$form_data['form_firstname'].'" /></p>
+		
+		<p><input type="text" name="form_lastname" id="vscf_lastname" class="'.$error_class['form_lastname'].'" maxlength="50" value="'.$form_data['form_lastname'].'" /></p>
+		
+		<p><label for="vscf_message">'.$label_message.': <span class="error '.((isset($error_class['form_message']))?"":" hide").'" >'.$error_form_message.'</span></label></p>
+		<p><textarea name="form_message" id="vscf_message" rows="10" class="'.$error_class['form_message'].'" >'.$form_data['form_message'].'</textarea></p>
+		
+		<p><input type="submit" value="'.$label_submit.'" name="form_send" class="vscf_send" id="vscf_send" /></p>
+		
 	</form>';
 	
 	// Send message and erase captcha session or display form with error messages
