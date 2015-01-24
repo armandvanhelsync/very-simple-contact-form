@@ -95,9 +95,22 @@ It only contains Name, Email, Subject and Message. And a simple captcha sum.
 
 Use shortcode [contact] to display form on page or use the widget to display form in sidebar.
 
-Dutch, German, French, Danish, Spanish, Catalan, Brazilian Portuguese, Polish, Croatian and Hungarian translation included. 
+= Translation =
+Dutch, German, French, Danish, Spanish, Catalan, Brazilian Portuguese, Polish, Croatian and Hungarian translation included. More translations are very welcome! Please contact me via my website.
 
-For more info please check readme file.
+= Credits =
+Without the WordPress codex and help from the WordPress community I was not able to develop this plugin, so: thank you!
+
+I used these scripts for developing the Very Simple Contact Form:
+
+http://code.tutsplus.com/articles/creating-a-simple-contact-form-for-simple-needs--wp-27893
+
+http://code.tutsplus.com/articles/building-custom-wordpress-widgets--wp-25241
+
+These scripts are released under the GNU General Public License v3 or later.
+
+Enjoy,
+Guido
 
 
 == Installation == 
@@ -148,29 +161,3 @@ Please open a topic in plugin forum or send me a message via my website.
 1. Very Simple Contact Form in frontend (using Twenty Fourteen theme).
 
 2. Very Simple Contact Form in frontend (using Twenty Fourteen theme).
-
-
-== Other Notes ==
-This plugin is translation-ready (Dutch, German, French, Danish, Spanish, Catalan, Brazilian Portuguese, Polish, Croatian and Hungarian Hungarian translation included). 
-
-More translations are very welcome! Please contact me via my website.
-
-You can translate this into your own language using for example plugin Codestyling Localization: 
-
-http://wordpress.org/plugins/codestyling-localization/
-
-
-== Credits ==
-Without the WordPress codex and help from the WordPress community I was not able to develop this plugin, so: thank you!
-
-I used these scripts for developing the Very Simple Contact Form:
-
-http://code.tutsplus.com/articles/creating-a-simple-contact-form-for-simple-needs--wp-27893
-
-http://code.tutsplus.com/articles/building-custom-wordpress-widgets--wp-25241
-
-These scripts are released under the GNU General Public License v3 or later
-
-
-Enjoy,
-Guido
