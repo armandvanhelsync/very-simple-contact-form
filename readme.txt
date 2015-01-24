@@ -3,7 +3,7 @@ Contributors: Guido07111975
 Version: 2.7
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
-Requires at Least: 3.7
+Requires at least: 3.7
 Tested up to: 4.1
 Stable tag: trunk
 Tags: simple, responsive, contact, contactform, email, honeypot, captcha, widget
