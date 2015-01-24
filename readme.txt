@@ -88,7 +88,7 @@ Version 1.0
 - first stable release
 
 
-== DESCRIPTION ==
+== Description ==
 This is a very simple responsive translation-ready contact form. 
 
 It only contains Name, Email, Subject and Message. And a simple captcha sum. 
@@ -100,7 +100,7 @@ Dutch, German, French, Danish, Spanish, Catalan, Brazilian Portuguese, Polish, C
 For more info please check readme file.
 
 
-== INSTALLATION == 
+== Installation == 
 After installation please add shortcode [contact] on your contactpage for displaying the form. 
 
 In this case messages will be send to email from admin (Settings > General).
@@ -150,7 +150,7 @@ Please open a topic in plugin forum or send me a message via my website.
 2. Very Simple Contact Form in frontend (using Twenty Fourteen theme).
 
 
-== OTHER NOTES ==
+== Other Notes ==
 This plugin is translation-ready (Dutch, German, French, Danish, Spanish, Catalan, Brazilian Portuguese, Polish, Croatian and Hungarian Hungarian translation included). 
 
 More translations are very welcome! Please contact me via my website.
@@ -160,7 +160,7 @@ You can translate this into your own language using for example plugin Codestyli
 http://wordpress.org/plugins/codestyling-localization/
 
 
-== CREDITS ==
+== Credits ==
 Without the WordPress codex and help from the WordPress community I was not able to develop this plugin, so: thank you!
 
 I used these scripts for developing the Very Simple Contact Form:
