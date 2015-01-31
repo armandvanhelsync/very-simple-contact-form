@@ -96,7 +96,7 @@ It only contains Name, Email, Subject and Message. And a simple captcha sum.
 Use shortcode [contact] to display form on page or use the widget to display form in sidebar.
 
 = Translation =
-Dutch, German, French, Danish, Spanish, Catalan, Brazilian Portuguese, Polish, Croatian and Hungarian translation included. More translations are very welcome! Please contact me via my website.
+Dutch, German, French, Danish, Spanish, Catalan, Brazilian Portuguese, Polish, Croatian, Estonian and Hungarian translation included. More translations are very welcome! Please contact me via my website.
 
 = Credits =
 Without the WordPress codex and help from the WordPress community I was not able to develop this plugin, so: thank you!
