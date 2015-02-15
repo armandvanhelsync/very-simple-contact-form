@@ -11,7 +11,7 @@ Tags: simple, responsive, contact, contactform, email, honeypot, captcha, widget
 
 == Changelog ==
 Version 2.8
-- form will now use theme styling for input fields and submit button. If not supported in your theme you can activate plugin styling in file vssf_style.
+- form will now use theme styling for input fields and submit button. If not supported in your theme you can activate plugin styling in file vscf_style.
 - added Estonian translation (thanks Villem Kuusk)
 
 Version 2.7
