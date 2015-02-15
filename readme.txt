@@ -1,6 +1,6 @@
 === Very Simple Contact Form ===
 Contributors: Guido07111975
-Version: 2.7
+Version: 2.8
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.7
@@ -10,6 +10,10 @@ Tags: simple, responsive, contact, contactform, email, honeypot, captcha, widget
 
 
 == Changelog ==
+Version 2.8
+- form will now use theme styling for input fields and submit button. If not supported in your theme you can activate plugin styling in file vssf_style.
+- added Estonian translation (thanks Villem Kuusk)
+
 Version 2.7
 - added Polish translation (thanks Milosz Raczkowski)
 - replaced all divs with paragraph tags for better form display
@@ -126,6 +130,11 @@ Note: the sidebar widget uses email from admin (Settings > General).
 
 
 == Frequently Asked Questions ==
+= I don't like the form layout in my theme, how can I change this? =
+From version 2.8 form will use theme styling for input fields and submit button. 
+
+If not supported in your theme you can activate plugin styling in file vscf_style.
+
 = Why am I not receiving messages? =
 1) Look also in your junk/spam folder.
 
@@ -158,6 +167,6 @@ Please open a topic in plugin forum or send me a message via my website.
 
 
 == Screenshots == 
-1. Very Simple Contact Form in frontend (using Twenty Fourteen theme).
+1. Very Simple Contact Form in frontend (using Twenty Fifteen theme).
 
-2. Very Simple Contact Form in frontend (using Twenty Fourteen theme).
+2. Very Simple Contact Form in frontend (using Twenty Fifteen theme).
