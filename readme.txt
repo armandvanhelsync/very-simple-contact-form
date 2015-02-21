@@ -1,6 +1,6 @@
 === Very Simple Contact Form ===
 Contributors: Guido07111975
-Version: 2.8
+Version: 2.9
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.7
@@ -10,6 +10,10 @@ Tags: simple, responsive, contact, contactform, email, honeypot, captcha, widget
 
 
 == Changelog ==
+Version 2.9
+- fixed bug in locale of Catalan, Croatian and Estonian language.  
+- added Slovenian translation (thanks Maja Blejec)
+
 Version 2.8
 - form will now use theme styling for input fields and submit button. If not supported in your theme you can activate plugin styling in file vscf_style.
 - added Estonian translation (thanks Villem Kuusk)
