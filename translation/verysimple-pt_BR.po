@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Very Simple Contact Form v2.9\n"
+"Project-Id-Version: Very Simple Contact Form v3.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-12-07 17:09:02+0000\n"
+"PO-Revision-Date: 2015-03-07 15:24:34+0000\n"
 "Last-Translator: Gustavo Lucas\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -52,6 +52,7 @@ msgstr "Enviar"
 
 #. translators: plugin header field 'Name'
 #: vscf_settings.php:0
+#: vscf_settings.php:109
 #: vscf_widget.php:8
 #: vscf_widget.php:41
 #@ verysimple
@@ -133,6 +134,81 @@ msgstr "Título do widget:"
 #. translators: plugin header field 'Version'
 #: vscf_settings.php:0
 #@ verysimple
-msgid "2.6"
+msgid "3.0"
 msgstr ""
+
+#: vscf_settings.php:79
+#@ verysimple
+msgid "VSCF Custom Style"
+msgstr "VSCF Estilo Personalizado"
+
+#: vscf_settings.php:87
+#@ verysimple
+msgid "Description"
+msgstr "Descrição"
+
+#: vscf_settings.php:88
+#@ verysimple
+msgid "Custom Style"
+msgstr "Estil Personalizado"
+
+#: vscf_settings.php:94
+#@ verysimple
+msgid "On this page you can add Custom Style (CSS) to change the layout of your Very Simple Contact Form."
+msgstr "Nessa página você pode adicionar seus Estilos (CSS) Personalizados para mudar o layout do seu Very Simple Contact Form."
+
+#: vscf_settings.php:113
+#@ verysimple
+msgid "Save Style"
+msgstr "Salvar Estilo"
+
+#: vscf_settings.php:119
+#@ verysimple
+msgid "Field label"
+msgstr "Rótulos de áreas"
+
+#: vscf_settings.php:121
+#@ verysimple
+msgid "All fields"
+msgstr "Todos as áreas"
+
+#: vscf_settings.php:123
+#@ verysimple
+msgid "Fields by name"
+msgstr "Campos por nome"
+
+#: vscf_settings.php:126
+#@ verysimple
+msgid "Submit button"
+msgstr "Botão Enviar"
+
+#: vscf_settings.php:131
+#@ verysimple
+msgid "Field error"
+msgstr "Área de erro"
+
+#: vscf_settings.php:133
+#@ verysimple
+msgid "Error and Thank You message"
+msgstr "Mensagem de Erro e Agradecimento"
+
+#: vscf_settings.php:136
+#@ verysimple
+msgid "Widget"
+msgstr "Widget"
+
+#: vscf_settings.php:138
+#@ verysimple
+msgid "Plugin Stylesheet"
+msgstr "Stylesheet do Plugin"
+
+#: vscf_settings.php:139
+#@ verysimple
+msgid "For Default Style"
+msgstr "Para o Estilo Padrão"
+
+#: vscf_settings.php:139
+#@ verysimple
+msgid "Click Here"
+msgstr "Clique Aqui"
 

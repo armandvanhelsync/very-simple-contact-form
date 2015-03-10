@@ -1,16 +1,16 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Very Simple Contact Form v2.9\n"
+"Project-Id-Version: Very Simple Contact Form v3.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-12-07 17:08:43+0000\n"
+"PO-Revision-Date: 2015-03-07 12:34:00+0000\n"
 "Last-Translator: Dario Abram\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
-"X-Generator: Poedit 1.6.9\n"
+"X-Generator: CSL v1.x\n"
 "X-Poedit-Language: Croatian\n"
 "X-Poedit-Country: CROATIA\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -44,31 +44,17 @@ msgstr "Predmet"
 msgid "Message"
 msgstr "Poruka"
 
+#: vscf_main.php:15
+#: vscf_widget_form.php:15
+#@ verysimple
+msgid "Fill in number"
+msgstr "Ispunite broj"
+
 #: vscf_main.php:16
 #: vscf_widget_form.php:16
 #@ verysimple
 msgid "Submit"
 msgstr "Pošalji"
-
-#. translators: plugin header field 'Name'
-#: vscf_settings.php:0
-#: vscf_widget.php:8
-#: vscf_widget.php:41
-#@ verysimple
-msgid "Very Simple Contact Form"
-msgstr ""
-
-#. translators: plugin header field 'AuthorURI'
-#: vscf_settings.php:0
-#@ verysimple
-msgid "http://www.guidovanderleest.nl"
-msgstr ""
-
-#. translators: plugin header field 'Author'
-#: vscf_settings.php:0
-#@ verysimple
-msgid "Guido van der Leest"
-msgstr ""
 
 #: vscf_main.php:17
 #: vscf_widget_form.php:17
@@ -82,19 +68,25 @@ msgstr "Molim, ispunite sva potrebna polja."
 #: vscf_widget_form.php:19
 #@ verysimple
 msgid "Please enter at least 3 characters"
-msgstr "Molim, unesite barem 3 znaka."
+msgstr "Molim, unesite barem 3 znaka"
 
 #: vscf_main.php:20
 #: vscf_widget_form.php:20
 #@ verysimple
 msgid "Please enter at least 10 characters"
-msgstr "Molim, unesite barem 10 znakova."
+msgstr "Molim, unesite barem 10 znaka"
+
+#: vscf_main.php:21
+#: vscf_widget_form.php:21
+#@ verysimple
+msgid "Please fill in the correct number"
+msgstr "Molim, vas da ispunite točan broj"
 
 #: vscf_main.php:22
 #: vscf_widget_form.php:22
 #@ verysimple
 msgid "Please enter a valid email"
-msgstr "Molim, unesite važeću e-adresu."
+msgstr "Molim, unesite važeću e-adresu"
 
 #: vscf_main.php:23
 #: vscf_widget_form.php:23
@@ -102,23 +94,113 @@ msgstr "Molim, unesite važeću e-adresu."
 msgid "Thanks for your message! I will contact you as soon as I can."
 msgstr "Hvala na poruci! Odgovor ubrzo stiže."
 
+#. translators: plugin header field 'Name'
+#: vscf_settings.php:0
+#: vscf_settings.php:109
+#: vscf_widget.php:8
+#: vscf_widget.php:41
+#@ verysimple
+msgid "Very Simple Contact Form"
+msgstr ""
+
 #. translators: plugin header field 'Description'
 #: vscf_settings.php:0
 #@ verysimple
 msgid "This is a very simple contact form. Use shortcode [contact] to display form on page or use the widget. For more info please check readme file."
 msgstr "Ovo je vrlo jednostavan kontakt-obrazac. Uporabi kratki kod [contact] kako biste prikazali obrazac na svojoj stranici ili koristiti widget. Za više informacija pročitajte datoteku readme."
 
-#: vscf_main.php:15
-#: vscf_widget_form.php:15
+#. translators: plugin header field 'Author'
+#: vscf_settings.php:0
 #@ verysimple
-msgid "Fill in number"
-msgstr "Ispunite broj"
+msgid "Guido van der Leest"
+msgstr ""
 
-#: vscf_main.php:21
-#: vscf_widget_form.php:21
+#. translators: plugin header field 'AuthorURI'
+#: vscf_settings.php:0
 #@ verysimple
-msgid "Please fill in the correct number"
-msgstr "Molim, vas da ispunite točan broj"
+msgid "http://www.guidovanderleest.nl"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: vscf_settings.php:0
+#@ verysimple
+msgid "3.0"
+msgstr ""
+
+#: vscf_settings.php:79
+#@ verysimple
+msgid "VSCF Custom Style"
+msgstr "VSCF prilagođeni stil"
+
+#: vscf_settings.php:87
+#@ verysimple
+msgid "Description"
+msgstr "Opis"
+
+#: vscf_settings.php:88
+#@ verysimple
+msgid "Custom Style"
+msgstr "Pilagođeni stil"
+
+#: vscf_settings.php:94
+#@ verysimple
+msgid "On this page you can add Custom Style (CSS) to change the layout of your Very Simple Contact Form."
+msgstr "Na ovoj stranici možete urediti Prilagođeni Stil (CSS) kako biste prilagodili izgled Very Simple Contact Form Vašim potrebama."
+
+#: vscf_settings.php:113
+#@ verysimple
+msgid "Save Style"
+msgstr "Spremi Stil"
+
+#: vscf_settings.php:119
+#@ verysimple
+msgid "Field label"
+msgstr "Polja oznake"
+
+#: vscf_settings.php:121
+#@ verysimple
+msgid "All fields"
+msgstr "Sva polja"
+
+#: vscf_settings.php:123
+#@ verysimple
+msgid "Fields by name"
+msgstr "Naziv polja"
+
+#: vscf_settings.php:126
+#@ verysimple
+msgid "Submit button"
+msgstr "Gumb submit"
+
+#: vscf_settings.php:131
+#@ verysimple
+msgid "Field error"
+msgstr "Polja za unos pogreške"
+
+#: vscf_settings.php:133
+#@ verysimple
+msgid "Error and Thank You message"
+msgstr "Poruke za Pogrešku i Zahvalu"
+
+#: vscf_settings.php:136
+#@ verysimple
+msgid "Widget"
+msgstr "Widget"
+
+#: vscf_settings.php:138
+#@ verysimple
+msgid "Plugin Stylesheet"
+msgstr "Plugin Stil"
+
+#: vscf_settings.php:139
+#@ verysimple
+msgid "For Default Style"
+msgstr "Za Zadani Stil"
+
+#: vscf_settings.php:139
+#@ verysimple
+msgid "Click Here"
+msgstr "Kliknite Ovdje"
 
 #: vscf_widget.php:7
 #@ verysimple
@@ -128,11 +210,5 @@ msgstr ""
 #: vscf_widget.php:45
 #@ verysimple
 msgid "Widget Title:"
-msgstr "Widget naslov:"
-
-#. translators: plugin header field 'Version'
-#: vscf_settings.php:0
-#@ verysimple
-msgid "2.6"
-msgstr ""
+msgstr "Widget Naslov:"
 
