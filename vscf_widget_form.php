@@ -30,7 +30,7 @@ function vscf_widget_shortcode($atts) {
 			'form_name' 		=> sanitize_text_field($_POST['form_name']),
 			'email' 			=> sanitize_email($_POST['email']),
 			'form_subject' 		=> sanitize_text_field($_POST['form_subject']),
-			'form_message' 		=> sanitize_text_field($_POST['form_message']),
+			'form_message' 		=> vscf_sanitize_text_field($_POST['form_message']),
 			'form_sum'		 	=> sanitize_text_field($_POST['form_sum']),
 			'form_firstname' 	=> sanitize_text_field($_POST['form_firstname']),
 			'form_lastname' 	=> sanitize_text_field($_POST['form_lastname'])

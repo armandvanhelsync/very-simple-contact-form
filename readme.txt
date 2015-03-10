@@ -1,21 +1,27 @@
 === Very Simple Contact Form ===
 Contributors: Guido07111975
-Version: 2.9
+Version: 3.0
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.7
 Tested up to: 4.1
 Stable tag: trunk
-Tags: simple, responsive, contact, contactform, email, honeypot, captcha, widget
+Tags: simple, responsive, contact, contactform, email, honeypot, captcha, widget, custom, style, css
 
 
 == Changelog ==
+Version 3.0
+- major update
+- added Custom Style editor: you can change the layout (CSS) of your form using the custom style page in WP dashboard
+- linebreaks in textarea field are allowed now
+- updated language files with help from nice users listed below and Google Translate
+
 Version 2.9
-- fixed bug in locale of Catalan, Croatian and Estonian language.  
+- fixed bug in locale of Catalan, Croatian and Estonian language  
 - added Slovenian translation (thanks Maja Blejec)
 
 Version 2.8
-- form will now use theme styling for input fields and submit button. If not supported in your theme you can activate plugin styling in file vscf_style.
+- form will now use theme styling for input fields and submit button. If not supported in your theme you can activate plugin styling in file vscf_style
 - added Estonian translation (thanks Villem Kuusk)
 
 Version 2.7
@@ -103,6 +109,8 @@ It only contains Name, Email, Subject and Message. And a simple captcha sum.
 
 Use shortcode [contact] to display form on page or use the widget to display form in sidebar.
 
+You can change the layout (CSS) of your form using the custom style page in WP dashboard.
+
 = Translation =
 Dutch, German, French, Danish, Spanish, Catalan, Brazilian Portuguese, Polish, Croatian, Estonian, Slovenian and Hungarian translation included. More translations are very welcome! Please contact me via my website.
 
@@ -134,10 +142,10 @@ Note: the sidebar widget uses email from admin (Settings > General).
 
 
 == Frequently Asked Questions ==
-= I don't like the form layout in my theme, how can I change this? =
+= I don't like the form layout, how can I change this? =
 From version 2.8 form will use theme styling for input fields and submit button. 
 
-If not supported in your theme you can activate plugin styling in file vscf_style.
+In version 3.0 I've added a Custom Style editor: you can change the layout (CSS) of your form using the custom style page in WP dashboard. Max. 1000 characters allowed.
 
 = Why am I not receiving messages? =
 1) Look also in your junk/spam folder.
@@ -166,6 +174,9 @@ http://codex.wordpress.org/Function_Reference/sanitize_text_field
 
 From version 2.4 it also contains honeypot fields and a simple captcha sum.
 
+= I notice there are 2 invisible fields (firstname and lastname), what's up with that? =
+This is part of anti-spam: these are the 2 honeypot fields
+
 = Other question or comment? =
 Please open a topic in plugin forum or send me a message via my website.
 
@@ -174,3 +185,5 @@ Please open a topic in plugin forum or send me a message via my website.
 1. Very Simple Contact Form in frontend (using Twenty Fifteen theme).
 
 2. Very Simple Contact Form in frontend (using Twenty Fifteen theme).
+
+3. Very Simple Contact Form Custom Style editor.
