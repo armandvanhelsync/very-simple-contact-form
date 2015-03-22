@@ -162,7 +162,7 @@ Custom Style editor included: you can change the layout (CSS) of your form using
 4) Messages are send using the wp-mail function, maybe your hostingprovider disabled the php mail function. Ask them to enable it. 
 
 = Can I use multiple forms on the same website? =
-Yes and no. Don't use multiple forms on the same website. This may cause a conflict. But from version 2.6 you can use the shortcode on your contactpage and the widget on the same website.
+Yes and no. Don't use multiple forms on the same website. This may cause a conflict. But you can use the shortcode on your contactpage and the widget on the same website.
 
 = Is my language supported too? =
 All UTF-8 characters are allowed, so many languages are supported. But the plugin itself is only translated in several languages. 
