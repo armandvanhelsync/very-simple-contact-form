@@ -1,15 +1,19 @@
 === Very Simple Contact Form ===
 Contributors: Guido07111975
-Version: 3.0
+Version: 3.1
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.7
 Tested up to: 4.1
 Stable tag: trunk
-Tags: simple, responsive, contact, contactform, email, honeypot, captcha, widget, custom, style, css
+Tags: simple, responsive, contact, contactform, email, honeypot, captcha, widget, custom, style, css, editor
 
 
 == Changelog ==
+Version 3.1
+- cleaned up code in files vscf_main and vscf_widget_form
+- added Turkish translation (thanks WordCommerce)
+
 Version 3.0
 - major update
 - added Custom Style editor: you can change the layout (CSS) of your form using the custom style page in WP dashboard
@@ -112,10 +116,11 @@ Use shortcode [contact] to display form on page or use the widget to display for
 You can change the layout (CSS) of your form using the custom style page in WP dashboard.
 
 = Translation =
-Dutch, German, French, Danish, Spanish, Catalan, Brazilian Portuguese, Polish, Croatian, Estonian, Slovenian and Hungarian translation included. More translations are very welcome! Please contact me via my website.
+Dutch, German, French, Danish, Spanish, Catalan, Brazilian Portuguese, Polish, Croatian, Estonian, Slovenian, Hungarian and Turkish translation included. More translations are very welcome! Please contact me via my website.
 
 = Credits =
-Without the WordPress codex and help from the WordPress community I was not able to develop this plugin, so: thank you!
+Without the WordPress codex and help from the WordPress community I was not able to develop this plugin, so: thank you! 
+And a special thanks to the friendly users of 'PHP hulp' for helping me to create bugfree code.
 
 I used these scripts for developing the Very Simple Contact Form:
 
@@ -143,23 +148,24 @@ Note: the sidebar widget uses email from admin (Settings > General).
 
 == Frequently Asked Questions ==
 = I don't like the form layout, how can I change this? =
-From version 2.8 form will use theme styling for input fields and submit button. 
+Form will use theme styling for input fields and submit button. 
 
-In version 3.0 I've added a Custom Style editor: you can change the layout (CSS) of your form using the custom style page in WP dashboard. Max. 1000 characters allowed.
+Custom Style editor included: you can change the layout (CSS) of your form using the custom style page in WP dashboard. Max. 1000 characters allowed.
 
 = Why am I not receiving messages? =
 1) Look also in your junk/spam folder.
 
 2) Check info about installation and check shortcode for mistakes.
 
-3) Messages are send using the wp-mail function, maybe your hostingprovider disabled the php mail function. Ask them to enable it. 
+3) Install another contactform plugin to determine if it's caused by Very Simple Contact Form or something else.
+
+4) Messages are send using the wp-mail function, maybe your hostingprovider disabled the php mail function. Ask them to enable it. 
 
 = Can I use multiple forms on the same website? =
 Yes and no. Don't use multiple forms on the same website. This may cause a conflict. But from version 2.6 you can use the shortcode on your contactpage and the widget on the same website.
 
 = Is my language supported too? =
-From version 2.0 all UTF-8 characters are allowed, so many languages are supported.
-But the plugin itself is only translated in several languages. 
+All UTF-8 characters are allowed, so many languages are supported. But the plugin itself is only translated in several languages. 
 
 = Is this plugin protected against spammers, bots, etc? =
 The default WordPress sanitization function is included.
@@ -172,7 +178,7 @@ For other fields:
 
 http://codex.wordpress.org/Function_Reference/sanitize_text_field
 
-From version 2.4 it also contains honeypot fields and a simple captcha sum.
+It also contains honeypot fields and a simple captcha sum.
 
 = I notice there are 2 invisible fields (firstname and lastname), what's up with that? =
 This is part of anti-spam: these are the 2 honeypot fields
