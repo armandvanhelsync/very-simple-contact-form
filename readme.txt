@@ -1,6 +1,6 @@
 === Very Simple Contact Form ===
 Contributors: Guido07111975
-Version: 3.1
+Version: 3.2
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.7
@@ -10,6 +10,11 @@ Tags: simple, responsive, contact, contactform, email, honeypot, captcha, widget
 
 
 == Changelog ==
+Version 3.2
+- request: changed required number of characters from 3 to 2 (name and subject field)
+- fixed bug with captcha not working properly in widget (in version 3.1)
+- added Italian translation (thanks Antonio Melcore)
+
 Version 3.1
 - cleaned up code in files vscf_main and vscf_widget_form
 - added Turkish translation (thanks WordCommerce)
@@ -116,7 +121,7 @@ Use shortcode [contact] to display form on page or use the widget to display for
 You can change the layout (CSS) of your form using the custom style page in WP dashboard.
 
 = Translation =
-Dutch, German, French, Danish, Spanish, Catalan, Brazilian Portuguese, Polish, Croatian, Estonian, Slovenian, Hungarian and Turkish translation included. More translations are very welcome! Please contact me via my website.
+Dutch, German, French, Italian, Danish, Spanish, Catalan, Brazilian Portuguese, Polish, Croatian, Estonian, Slovenian, Hungarian and Turkish translation included. More translations are very welcome! Please contact me via my website.
 
 = Credits =
 Without the WordPress codex and help from the WordPress community I was not able to develop this plugin, so: thank you! 
@@ -165,7 +170,7 @@ Custom Style editor included: you can change the layout (CSS) of your form using
 Yes and no. Don't use multiple forms on the same website. This may cause a conflict. But you can use the shortcode on your contactpage and the widget on the same website.
 
 = Is my language supported too? =
-All UTF-8 characters are allowed, so many languages are supported. But the plugin itself is only translated in several languages. 
+You can enter all UTF-8 characters, so many languages are supported. But the plugin itself is only translated in several languages. 
 
 = Is this plugin protected against spammers, bots, etc? =
 The default WordPress sanitization function is included.

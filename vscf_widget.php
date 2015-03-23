@@ -8,7 +8,7 @@ class vscf_widget extends WP_Widget {
 		$this->WP_Widget( 'vscf-widget', __('Very Simple Contact Form', 'verysimple'), $widget_ops );
 	}
 
-	// Display widget with signup form in frontend 
+	// Display widget with contact form in frontend 
 	function widget( $args, $instance ) {
 		extract( $args );
 

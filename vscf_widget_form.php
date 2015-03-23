@@ -15,8 +15,8 @@ function vscf_widget_shortcode($atts) {
 		"label_sum"	 		=> __('Fill in number', 'verysimple') ,
 		"label_submit" 			=> __('Submit', 'verysimple') ,
 		"error_empty" 			=> __("Please fill in all the required fields", "verysimple"),
-		"error_form_name" 		=> __('Please enter at least 3 characters', 'verysimple') ,
-		"error_form_subject" 		=> __('Please enter at least 3 characters', 'verysimple') ,
+		"error_form_name" 		=> __('Please enter at least 2 characters', 'verysimple') ,
+		"error_form_subject" 		=> __('Please enter at least 2 characters', 'verysimple') ,
 		"error_form_message" 		=> __('Please enter at least 10 characters', 'verysimple') ,
 		"error_form_sum" 		=> __("Please fill in the correct number", "verysimple"),
 		"error_email" 			=> __("Please enter a valid email", "verysimple"),
@@ -57,7 +57,7 @@ function vscf_widget_shortcode($atts) {
 			$value = $post_data[$required_field];
 		
 			// Displaying error message if validation failed for each input field
-			if (((($required_field == "form_name") || ($required_field == "form_subject")) && strlen($value)<3) || (($required_field == "form_message") && strlen($value)<10) || empty($value)) {
+			if (((($required_field == "form_name") || ($required_field == "form_subject")) && strlen($value)<2) || (($required_field == "form_message") && strlen($value)<10) || empty($value)) {
 				$error_class[$required_field] = "error";
 				$error = true;
 				$result = $error_empty;
@@ -69,7 +69,7 @@ function vscf_widget_shortcode($atts) {
 			$value = $post_data[$sum_field];
 
 			// Displaying error message if validation failed for each input field
-			if ($_POST['form_sum'] != $_SESSION['vscf-rand']) { 
+			if ($_POST['form_sum'] != $_SESSION['vscf-widget-rand']) { 
 				$error_class[$sum_field] = "error";
 				$error = true;
 				$result = $error_empty;
