@@ -118,7 +118,7 @@ function vscf_widget_shortcode($atts) {
 		<p><label for="vscf_subject">'.$label_subject.': <span class="'.((isset($error_class['form_subject'])) ? "error" : "hide").'" >'.$error_form_subject.'</span></label></p>
 		<p><input type="text" name="form_subject" id="vscf_subject" class="'.((isset($error_class['form_subject'])) ? "error" : "").'" maxlength="50" value="'.$form_data['form_subject'].'" /></p>
 		
-		<p><label for="vscf_sum">'.$label_sum.' '. $_SESSION['vscf-rand'].': <span class="'.((isset($error_class['form_sum'])) ? "error" : "hide").'" >'.$error_form_sum.'</span></label></p>
+		<p><label for="vscf_sum">'.$label_sum.' '. $_SESSION['vscf-widget-rand'].': <span class="'.((isset($error_class['form_sum'])) ? "error" : "hide").'" >'.$error_form_sum.'</span></label></p>
 		<p><input type="text" name="form_sum" id="vscf_sum" class="'.((isset($error_class['form_sum'])) ? "error" : "").'" maxlength="50" value="'.$form_data['form_sum'].'" /></p>
 		
 		<p><input type="text" name="form_firstname" id="vscf_firstname" class="'.((isset($error_class['form_firstname'])) ? "error" : "").'" maxlength="50" value="'.$form_data['form_firstname'].'" /></p>
