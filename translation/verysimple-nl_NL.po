@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Very Simple Contact Form v3.0\n"
+"Project-Id-Version: Very Simple Contact Form v3.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2015-03-08 11:54:01+0000\n"
+"PO-Revision-Date: 2015-03-23 23:03:37+0000\n"
 "Last-Translator: Guido van der Leest\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -82,8 +82,8 @@ msgstr "Svp alle verplichte velden invullen"
 #: vscf_widget_form.php:18
 #: vscf_widget_form.php:19
 #@ verysimple
-msgid "Please enter at least 3 characters"
-msgstr "Svp tenminste 3 tekens invullen"
+msgid "Please enter at least 2 characters"
+msgstr "Svp tenminste 2 tekens invullen"
 
 #: vscf_main.php:20
 #: vscf_widget_form.php:20
@@ -156,12 +156,6 @@ msgstr "Op deze pagina kun je Aangepaste Stijl (CSS) invoeren om het uiterlijk v
 msgid "Save Style"
 msgstr "Stijl Opslaan"
 
-#. translators: plugin header field 'Version'
-#: vscf_settings.php:0
-#@ verysimple
-msgid "3.0"
-msgstr ""
-
 #: vscf_settings.php:119
 #@ verysimple
 msgid "Field label"
@@ -211,4 +205,10 @@ msgstr "Voor Standaard Stijl"
 #@ verysimple
 msgid "Click Here"
 msgstr "Klik Hier"
+
+#. translators: plugin header field 'Version'
+#: vscf_settings.php:0
+#@ verysimple
+msgid "3.2"
+msgstr ""
 

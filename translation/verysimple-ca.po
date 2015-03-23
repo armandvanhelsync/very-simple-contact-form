@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Very Simple Contact Form v3.0\n"
+"Project-Id-Version: Very Simple Contact Form v3.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2015-03-10 18:59:10+0000\n"
@@ -61,8 +61,8 @@ msgstr "És necessari omplir tots els camps obligatoris"
 #: vscf_widget_form.php:18
 #: vscf_widget_form.php:19
 #@ verysimple
-msgid "Please enter at least 3 characters"
-msgstr "Si us plau, introdueix almenys 3 caràcters"
+msgid "Please enter at least 2 characters"
+msgstr "Si us plau, introdueix almenys 2 caràcters"
 
 #: vscf_main.php:20
 #: vscf_widget_form.php:20

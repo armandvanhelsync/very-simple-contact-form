@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Very Simple Contact Form v3.0\n"
+"Project-Id-Version: Very Simple Contact Form v3.2\n"
 "POT-Creation-Date: 2014-03-06 19:24+0100\n"
 "PO-Revision-Date: 2014-03-06 19:26+0100\n"
 "Last-Translator: \n"
@@ -56,7 +56,7 @@ msgstr ""
 #: vscf_widget_form.php:18
 #: vscf_widget_form.php:19
 #@ verysimple
-msgid "Please enter at least 3 characters"
+msgid "Please enter at least 2 characters"
 msgstr ""
 
 #: vscf_main.php:20

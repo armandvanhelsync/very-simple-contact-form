@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Very Simple Contact Form v3.0\n"
+"Project-Id-Version: Very Simple Contact Form v3.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2015-03-07 11:27:10+0000\n"
+"PO-Revision-Date: 2015-03-23 23:03:30+0000\n"
 "Last-Translator: Roman Kekesi\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -82,8 +82,8 @@ msgstr "Kérlek tölts ki minden mezőt"
 #: vscf_widget_form.php:18
 #: vscf_widget_form.php:19
 #@ verysimple
-msgid "Please enter at least 3 characters"
-msgstr "Minimum 3 karakter hosszúságúnak kell lennie"
+msgid "Please enter at least 2 characters"
+msgstr "Minimum 2 karakter hosszúságúnak kell lennie"
 
 #: vscf_main.php:20
 #: vscf_widget_form.php:20
@@ -130,12 +130,6 @@ msgstr ""
 #@ verysimple
 msgid "Widget Title:"
 msgstr "Widget cím:"
-
-#. translators: plugin header field 'Version'
-#: vscf_settings.php:0
-#@ verysimple
-msgid "3.0"
-msgstr ""
 
 #: vscf_settings.php:79
 #@ verysimple
@@ -211,4 +205,10 @@ msgstr "A Alapértelmezett Stílus"
 #@ verysimple
 msgid "Click Here"
 msgstr "Kattintson Ide"
+
+#. translators: plugin header field 'Version'
+#: vscf_settings.php:0
+#@ verysimple
+msgid "3.2"
+msgstr ""
 
