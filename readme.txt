@@ -121,7 +121,7 @@ Use shortcode [contact] to display form on page or use the widget to display for
 You can change the layout (CSS) of your form using the custom style page in WP dashboard.
 
 = Translation =
-Dutch, German, French, Italian, Danish, Spanish, Catalan, Brazilian Portuguese, Polish, Croatian, Estonian, Slovenian, Hungarian and Turkish translation included. More translations are very welcome! Please contact me via my website.
+Dutch, German, French, Danish, Swedish , Italian, Spanish, Catalan, Brazilian Portuguese, Polish, Croatian, Estonian, Slovenian, Hungarian and Turkish translation included. More translations are very welcome! Please contact me via my website.
 
 = Credits =
 Without the WordPress codex and help from the WordPress community I was not able to develop this plugin, so: thank you! 
