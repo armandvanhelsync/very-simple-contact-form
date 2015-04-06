@@ -5,8 +5,8 @@ if (!isset ($_SESSION)) session_start();
 $_SESSION['vscf-widget-rand'] = isset($_SESSION['vscf-widget-rand']) ? $_SESSION['vscf-widget-rand'] : rand(100, 999);
 
 // The shortcode
-function vscf_widget_shortcode($atts) {
-	extract(shortcode_atts(array(
+function vscf_widget_shortcode($vscf_widget_atts) {
+	$vscf_widget_atts = shortcode_atts( array( 
 		"email_to" 			=> get_bloginfo('admin_email'),
 		"label_name" 			=> __('Name', 'verysimple') ,
 		"label_email" 			=> __('Email', 'verysimple') ,
@@ -21,7 +21,7 @@ function vscf_widget_shortcode($atts) {
 		"error_form_sum" 		=> __("Please fill in the correct number", "verysimple"),
 		"error_email" 			=> __("Please enter a valid email", "verysimple"),
 		"success" 				=> __("Thanks for your message! I will contact you as soon as I can.", "verysimple"),
-	), $atts));
+	), $vscf_widget_atts);
 
 	// Set some variables 
 	$form_data = array(
@@ -60,7 +60,7 @@ function vscf_widget_shortcode($atts) {
 			if (((($required_field == "form_name") || ($required_field == "form_subject")) && strlen($value)<2) || (($required_field == "form_message") && strlen($value)<10) || empty($value)) {
 				$error_class[$required_field] = "error";
 				$error = true;
-				$result = $error_empty;
+				$result = $vscf_widget_atts['error_empty'];
 			}
 			$form_data[$required_field] = $value;
 		}
@@ -72,7 +72,7 @@ function vscf_widget_shortcode($atts) {
 			if ($_POST['form_sum'] != $_SESSION['vscf-widget-rand']) { 
 				$error_class[$sum_field] = "error";
 				$error = true;
-				$result = $error_empty;
+				$result = $vscf_widget_atts['error_empty'];
 			}
 			$form_data[$sum_field] = $value;
 		}
@@ -95,8 +95,8 @@ function vscf_widget_shortcode($atts) {
 			$headers  = "From: ".$form_data['form_name']." <".$form_data['email'].">\n";
 			$headers .= "Content-Type: text/plain; charset=UTF-8\n";
 			$headers .= "Content-Transfer-Encoding: 8bit\n";
-			wp_mail($email_to, $email_subject, $email_message, $headers);
-			$result = $success;
+			wp_mail($vscf_widget_atts['email_to'], $email_subject, $email_message, $headers);
+			$result = $vscf_widget_atts['success'];
 			$sent = true;
 		}
 	}
@@ -109,26 +109,26 @@ function vscf_widget_shortcode($atts) {
 	// The contact form with error messages
 	$email_form = '<form class="vscf" id="vscf" method="post" action="">
 		
-		<p><label for="vscf_name">'.$label_name.': <span class="'.((isset($error_class['form_name'])) ? "error" : "hide").'" >'.$error_form_name.'</span></label></p>
+		<p><label for="vscf_name">'.$vscf_widget_atts['label_name'].': <span class="'.((isset($error_class['form_name'])) ? "error" : "hide").'" >'.$vscf_widget_atts['error_form_name'].'</span></label></p>
 		<p><input type="text" name="form_name" id="vscf_name" class="'.((isset($error_class['form_name'])) ? "error" : "").'" maxlength="50" value="'.$form_data['form_name'].'" /></p>
 		
-		<p><label for="vscf_email">'.$label_email.': <span class="'.((isset($error_class['email'])) ? "error" : "hide").'" >'.$error_email.'</span></label></p>
+		<p><label for="vscf_email">'.$vscf_widget_atts['label_email'].': <span class="'.((isset($error_class['email'])) ? "error" : "hide").'" >'.$vscf_widget_atts['error_email'].'</span></label></p>
 		<p><input type="text" name="email" id="vscf_email" class="'.((isset($error_class['email'])) ? "error" : "").'" maxlength="50" value="'.$form_data['email'].'" /></p>
 		
-		<p><label for="vscf_subject">'.$label_subject.': <span class="'.((isset($error_class['form_subject'])) ? "error" : "hide").'" >'.$error_form_subject.'</span></label></p>
+		<p><label for="vscf_subject">'.$vscf_widget_atts['label_subject'].': <span class="'.((isset($error_class['form_subject'])) ? "error" : "hide").'" >'.$vscf_widget_atts['error_form_subject'].'</span></label></p>
 		<p><input type="text" name="form_subject" id="vscf_subject" class="'.((isset($error_class['form_subject'])) ? "error" : "").'" maxlength="50" value="'.$form_data['form_subject'].'" /></p>
 		
-		<p><label for="vscf_sum">'.$label_sum.' '. $_SESSION['vscf-widget-rand'].': <span class="'.((isset($error_class['form_sum'])) ? "error" : "hide").'" >'.$error_form_sum.'</span></label></p>
+		<p><label for="vscf_sum">'.$vscf_widget_atts['label_sum'].' '. $_SESSION['vscf-widget-rand'].': <span class="'.((isset($error_class['form_sum'])) ? "error" : "hide").'" >'.$vscf_widget_atts['error_form_sum'].'</span></label></p>
 		<p><input type="text" name="form_sum" id="vscf_sum" class="'.((isset($error_class['form_sum'])) ? "error" : "").'" maxlength="50" value="'.$form_data['form_sum'].'" /></p>
 		
 		<p><input type="text" name="form_firstname" id="vscf_firstname" class="'.((isset($error_class['form_firstname'])) ? "error" : "").'" maxlength="50" value="'.$form_data['form_firstname'].'" /></p>
 		
 		<p><input type="text" name="form_lastname" id="vscf_lastname" class="'.((isset($error_class['form_lastname'])) ? "error" : "").'" maxlength="50" value="'.$form_data['form_lastname'].'" /></p>
 		
-		<p><label for="vscf_message">'.$label_message.': <span class="'.((isset($error_class['form_message'])) ? "error" : "hide").'" >'.$error_form_message.'</span></label></p>
+		<p><label for="vscf_message">'.$vscf_widget_atts['label_message'].': <span class="'.((isset($error_class['form_message'])) ? "error" : "hide").'" >'.$vscf_widget_atts['error_form_message'].'</span></label></p>
 		<p><textarea name="form_message" id="vscf_message" rows="10" class="'.((isset($error_class['form_message'])) ? "error" : "").'" >'.$form_data['form_message'].'</textarea></p>
 		
-		<p><input type="submit" value="'.$label_submit.'" name="widget_form_send" class="vscf_send" id="vscf_send" /></p>
+		<p><input type="submit" value="'.$vscf_widget_atts['label_subject'].'" name="widget_form_send" class="vscf_send" id="vscf_send" /></p>
 		
 	</form>';
 	

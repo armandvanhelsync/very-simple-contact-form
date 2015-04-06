@@ -1,6 +1,6 @@
 === Very Simple Contact Form ===
 Contributors: Guido07111975
-Version: 3.2
+Version: 3.3
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.7
@@ -10,6 +10,11 @@ Tags: simple, responsive, contact, contactform, email, honeypot, captcha, widget
 
 
 == Changelog ==
+Version 3.3
+- removed 'extract' from files vscf_main and vscf_widget_form
+- adjusted code in files vscf_main and vscf_widget_form
+- added Swedish translation (thanks Bo Ahlqvist)
+
 Version 3.2
 - request: changed required number of characters from 3 to 2 (name and subject field)
 - fixed bug with captcha not working properly in widget (in version 3.1)
