@@ -128,7 +128,7 @@ function vscf_widget_shortcode($vscf_widget_atts) {
 		<p><label for="vscf_message">'.$vscf_widget_atts['label_message'].': <span class="'.((isset($error_class['form_message'])) ? "error" : "hide").'" >'.$vscf_widget_atts['error_form_message'].'</span></label></p>
 		<p><textarea name="form_message" id="vscf_message" rows="10" class="'.((isset($error_class['form_message'])) ? "error" : "").'" >'.$form_data['form_message'].'</textarea></p>
 		
-		<p><input type="submit" value="'.$vscf_widget_atts['label_subject'].'" name="widget_form_send" class="vscf_send" id="vscf_send" /></p>
+		<p><input type="submit" value="'.$vscf_widget_atts['label_submit'].'" name="widget_form_send" class="vscf_send" id="vscf_send" /></p>
 		
 	</form>';
 	
