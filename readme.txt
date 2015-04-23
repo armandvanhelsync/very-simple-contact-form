@@ -4,7 +4,7 @@ Version: 3.3
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.7
-Tested up to: 4.1
+Tested up to: 4.2
 Stable tag: trunk
 Tags: simple, responsive, contact, contactform, email, honeypot, captcha, widget, custom, style, css, editor
 
@@ -160,7 +160,7 @@ Note: the sidebar widget uses email from admin (Settings > General).
 = I don't like the form layout, how can I change this? =
 Form will use theme styling for input fields and submit button. 
 
-Custom Style editor included: you can change the layout (CSS) of your form using the custom style page in WP dashboard. Max. 1000 characters allowed.
+Custom Style editor included: you can change the layout (CSS) of your form using the custom style page in WP dashboard. Max. 2000 characters allowed.
 
 = Why am I not receiving messages? =
 1) Look also in your junk/spam folder.
