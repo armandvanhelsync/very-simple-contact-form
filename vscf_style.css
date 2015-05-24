@@ -15,12 +15,12 @@
 
 
 /* Input fields error */
-#vscf input.error, #vscf textarea.error {border-color:#e77776;}
+#vscf input.error, #vscf textarea.error {border-color:#e77776; color:#e77776;}
 
 
 /* Error and Thank You message */
-#vscf .error {color:#e77776;}
-#vscf .hide {display:none;}
+#vscf span.error {color:#e77776;}
+#vscf span.hide {display:none;}
 .vscf_info {margin:0 0 10px; font-style:italic; font-size:1.25em;}
 
 

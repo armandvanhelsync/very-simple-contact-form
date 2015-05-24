@@ -8,19 +8,19 @@ $_SESSION['vscf-widget-rand'] = isset($_SESSION['vscf-widget-rand']) ? $_SESSION
 function vscf_widget_shortcode($vscf_widget_atts) {
 	$vscf_widget_atts = shortcode_atts( array( 
 		"email_to" 			=> get_bloginfo('admin_email'),
-		"label_name" 			=> __('Name', 'verysimple') ,
-		"label_email" 			=> __('Email', 'verysimple') ,
-		"label_subject" 		=> __('Subject', 'verysimple') ,
-		"label_message" 		=> __('Message', 'verysimple') ,
-		"label_sum"	 		=> __('Fill in number', 'verysimple') ,
-		"label_submit" 			=> __('Submit', 'verysimple') ,
-		"error_empty" 			=> __("Please fill in all the required fields", "verysimple"),
-		"error_form_name" 		=> __('Please enter at least 2 characters', 'verysimple') ,
-		"error_form_subject" 		=> __('Please enter at least 2 characters', 'verysimple') ,
-		"error_form_message" 		=> __('Please enter at least 10 characters', 'verysimple') ,
-		"error_form_sum" 		=> __("Please fill in the correct number", "verysimple"),
-		"error_email" 			=> __("Please enter a valid email", "verysimple"),
-		"success" 				=> __("Thanks for your message! I will contact you as soon as I can.", "verysimple"),
+		"label_name" 			=> __('Name', 'verysimple'),
+		"label_email" 			=> __('Email', 'verysimple'),
+		"label_subject" 		=> __('Subject', 'verysimple'),
+		"label_message" 		=> __('Message', 'verysimple'),
+		"label_sum"	 		=> __('Fill in number', 'verysimple'),
+		"label_submit" 			=> __('Submit', 'verysimple'),
+		"error_empty" 			=> __('Please fill in all the required fields', 'verysimple'),
+		"error_form_name" 		=> __('Please enter at least 2 characters', 'verysimple'),
+		"error_form_subject" 		=> __('Please enter at least 2 characters', 'verysimple'),
+		"error_form_message" 		=> __('Please enter at least 10 characters', 'verysimple'),
+		"error_form_sum" 		=> __('Please fill in the correct number', 'verysimple'),
+		"error_email" 			=> __('Please enter a valid email', 'verysimple'),
+		"success" 				=> __('Thanks for your message! I will contact you as soon as I can.', 'verysimple'),
 	), $vscf_widget_atts);
 
 	// Set some variables 
@@ -47,7 +47,7 @@ function vscf_widget_shortcode($vscf_widget_atts) {
 			'form_name' 		=> sanitize_text_field($_POST['form_name']),
 			'email' 			=> sanitize_email($_POST['email']),
 			'form_subject' 		=> sanitize_text_field($_POST['form_subject']),
-			'form_message' 		=> vscf_sanitize_text_field($_POST['form_message']),
+			'form_message' 		=> vscf_sanitize_text_area($_POST['form_message']),
 			'form_sum'		 	=> sanitize_text_field($_POST['form_sum']),
 			'form_firstname' 	=> sanitize_text_field($_POST['form_firstname']),
 			'form_lastname' 	=> sanitize_text_field($_POST['form_lastname'])
@@ -93,6 +93,7 @@ function vscf_widget_shortcode($vscf_widget_atts) {
 			$email_subject = "[".get_bloginfo('name')."] " . $form_data['form_subject'];
 			$email_message = $form_data['form_name'] . "\n\n" . $form_data['email'] . "\n\n" . $form_data['form_message'] . "\n\nIP: " . vscf_get_the_ip();
 			$headers  = "From: ".$form_data['form_name']." <".$form_data['email'].">\n";
+			$headers .= "Reply-To: ".$form_data['form_name']." <".$form_data['email'].">\n";
 			$headers .= "Content-Type: text/plain; charset=UTF-8\n";
 			$headers .= "Content-Transfer-Encoding: 8bit\n";
 			wp_mail($vscf_widget_atts['email_to'], $email_subject, $email_message, $headers);

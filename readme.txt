@@ -1,6 +1,6 @@
 === Very Simple Contact Form ===
 Contributors: Guido07111975
-Version: 3.3
+Version: 3.4
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.7
@@ -10,6 +10,11 @@ Tags: simple, responsive, contact, contactform, email, honeypot, captcha, widget
 
 
 == Changelog ==
+Version 3.4
+- adjusted the email headers to avoid messages go directly in junk/spam folder: added Reply-To and Return-Path
+- renamed vscf_sanitize_text_field into vscf_sanitize_text_area
+- updated language files
+
 Version 3.3
 - removed 'extract' from files vscf_main and vscf_widget_form
 - adjusted code in files vscf_main and vscf_widget_form
@@ -125,8 +130,10 @@ Use shortcode [contact] to display form on page or use the widget to display for
 
 You can change the layout (CSS) of your form using the custom style page in WP dashboard.
 
+Question? Please take a look at the FAQ section.
+
 = Translation =
-Dutch, German, French, Danish, Swedish , Italian, Spanish, Catalan, Brazilian Portuguese, Polish, Croatian, Estonian, Slovenian, Hungarian and Turkish translation included. More translations are very welcome! Please contact me via my website.
+Dutch, German, French, Danish, Swedish, Italian, Spanish, Catalan, Brazilian Portuguese, Polish, Croatian, Estonian, Slovenian, Hungarian and Turkish translation included. More translations are very welcome! Please contact me via my website.
 
 = Credits =
 Without the WordPress codex and help from the WordPress community I was not able to develop this plugin, so: thank you! 
@@ -167,9 +174,9 @@ Custom Style editor included: you can change the layout (CSS) of your form using
 
 2) Check info about installation and check shortcode for mistakes.
 
-3) Install another contactform plugin to determine if it's caused by Very Simple Contact Form or something else.
+3) Install another contactform plugin (such as Contact Form 7) to determine if it's caused by Very Simple Contact Form or something else.
 
-4) Messages are send using the wp-mail function, maybe your hostingprovider disabled the php mail function. Ask them to enable it. 
+4) Messages are send using the wp_mail function (similar to php mail function). Maybe your hostingprovider disabled the php mail function, ask them to enable it. 
 
 = Can I use multiple forms on the same website? =
 Yes and no. Don't use multiple forms on the same website. This may cause a conflict. But you can use the shortcode on your contactpage and the widget on the same website.

@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Very Simple Contact Form
  * Description: This is a very simple contact form. Use shortcode [contact] to display form on page or use the widget. For more info please check readme file.
- * Version: 3.3
+ * Version: 3.4
  * Author: Guido van der Leest
  * Author URI: http://www.guidovanderleest.nl
  * License: GNU General Public License v3 or later
@@ -49,9 +49,9 @@ function vscf_get_the_ip() {
 }
 
 
-// Check data before saving it in database 
+// Check data from text area before saving it in database 
 // Same as sanitize_text_field function but line breaks are allowed 
-function vscf_sanitize_text_field($str) {
+function vscf_sanitize_text_area($str) {
 	$filtered = wp_check_invalid_utf8( $str );
 
 	if ( strpos($filtered, '<') !== false ) {
@@ -70,8 +70,15 @@ function vscf_sanitize_text_field($str) {
 	if ( $found ) {
 		$filtered = trim( preg_replace('/ +/', ' ', $filtered) );
 	}
-	return apply_filters( 'vscf_sanitize_text_field', $filtered, $str );
+	return apply_filters( 'vscf_sanitize_text_area', $filtered, $str );
 }
+
+
+// Set return path in email headers to email from sender in stead of email from admin/server
+function vscf_phpmailer_return_path( $phpmailer ) {
+	$phpmailer->Sender = $phpmailer->From;
+}
+add_action( 'phpmailer_init', 'vscf_phpmailer_return_path' );
 
 
 // Add the admin options page
@@ -83,7 +90,7 @@ add_action( 'admin_menu', 'vscf_menu_page' );
 
 // Add the admin settings and such 
 function vscf_admin_init() {
-    register_setting( 'vscf-options', 'vscf-setting', 'vscf_sanitize_text_field' );
+    register_setting( 'vscf-options', 'vscf-setting', 'vscf_sanitize_text_area' );
     add_settings_section( 'vscf-section', __( 'Description', 'verysimple' ), 'vscf_section_callback', 'vscf' );
     add_settings_field( 'vscf-field', __( 'Custom Style', 'verysimple' ), 'vscf_field_callback', 'vscf', 'vscf-section' );
 }
@@ -131,7 +138,7 @@ function vscf_options_page() {
 	<p><strong><?php _e( 'Field error', 'verysimple' ); ?>:</strong></p>
 	<p>#vscf input.error, #vscf textarea.error { }</p>
 	<p><strong><?php _e( 'Error and Thank You message', 'verysimple' ); ?>:</strong></p>
-	<p>#vscf .error { }</p>
+	<p>#vscf span.error { }</p>
 	<p>.vscf_info { }</p>
 	<p><strong><?php _e( 'Widget', 'verysimple' ); ?>:</strong></p>
 	<p>.vscf_sidebar { }</p>
