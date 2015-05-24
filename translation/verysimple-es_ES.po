@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Very Simple Contact Form v3.2\n"
+"Project-Id-Version: Very Simple Contact Form v3.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2015-03-23 23:03:24+0000\n"
+"PO-Revision-Date: 2015-05-24 11:01:32+0000\n"
 "Last-Translator: Alvaro Reig Gonzalez\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -52,7 +52,7 @@ msgstr "Enviar"
 
 #. translators: plugin header field 'Name'
 #: vscf_settings.php:0
-#: vscf_settings.php:109
+#: vscf_settings.php:116
 #: vscf_widget.php:8
 #: vscf_widget.php:41
 #@ verysimple
@@ -131,77 +131,77 @@ msgstr ""
 msgid "Widget Title:"
 msgstr "Título del widget:"
 
-#: vscf_settings.php:79
+#: vscf_settings.php:86
 #@ verysimple
 msgid "VSCF Custom Style"
 msgstr "VSCF Estilos Personalizados"
 
-#: vscf_settings.php:87
+#: vscf_settings.php:94
 #@ verysimple
 msgid "Description"
 msgstr "Descripción"
 
-#: vscf_settings.php:88
+#: vscf_settings.php:95
 #@ verysimple
 msgid "Custom Style"
 msgstr "Estilo Personalizado"
 
-#: vscf_settings.php:94
+#: vscf_settings.php:101
 #@ verysimple
 msgid "On this page you can add Custom Style (CSS) to change the layout of your Very Simple Contact Form."
 msgstr "En esta página puede añadir estilos personalizados (CSS) para cambiar la disposición de su Very Simple Contact Form."
 
-#: vscf_settings.php:113
+#: vscf_settings.php:120
 #@ verysimple
 msgid "Save Style"
 msgstr "Guardar estilo"
 
-#: vscf_settings.php:119
+#: vscf_settings.php:126
 #@ verysimple
 msgid "Field label"
 msgstr "Etiqueta del campo"
 
-#: vscf_settings.php:121
+#: vscf_settings.php:128
 #@ verysimple
 msgid "All fields"
 msgstr "Todos los campos"
 
-#: vscf_settings.php:123
+#: vscf_settings.php:130
 #@ verysimple
 msgid "Fields by name"
 msgstr "Campos por nombre"
 
-#: vscf_settings.php:126
+#: vscf_settings.php:133
 #@ verysimple
 msgid "Submit button"
 msgstr "Botón submit"
 
-#: vscf_settings.php:131
+#: vscf_settings.php:138
 #@ verysimple
 msgid "Field error"
 msgstr "Error del campo"
 
-#: vscf_settings.php:133
+#: vscf_settings.php:140
 #@ verysimple
 msgid "Error and Thank You message"
 msgstr "Error y gracias mensaje"
 
-#: vscf_settings.php:136
+#: vscf_settings.php:143
 #@ verysimple
 msgid "Widget"
 msgstr "Widget"
 
-#: vscf_settings.php:138
+#: vscf_settings.php:145
 #@ verysimple
 msgid "Plugin Stylesheet"
 msgstr "Plugin Estilo"
 
-#: vscf_settings.php:139
+#: vscf_settings.php:146
 #@ verysimple
 msgid "For Default Style"
 msgstr "Para el defecto del estilo"
 
-#: vscf_settings.php:139
+#: vscf_settings.php:146
 #@ verysimple
 msgid "Click Here"
 msgstr "Clic Aquí"
@@ -209,6 +209,6 @@ msgstr "Clic Aquí"
 #. translators: plugin header field 'Version'
 #: vscf_settings.php:0
 #@ verysimple
-msgid "3.2"
+msgid "3.4"
 msgstr ""
 
