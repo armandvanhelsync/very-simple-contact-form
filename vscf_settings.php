@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Very Simple Contact Form
  * Description: This is a very simple contact form. Use shortcode [contact] to display form on page or use the widget. For more info please check readme file.
- * Version: 3.4
+ * Version: 3.5
  * Author: Guido van der Leest
  * Author URI: http://www.guidovanderleest.nl
  * License: GNU General Public License v3 or later
@@ -137,13 +137,14 @@ function vscf_options_page() {
 	<td>
 	<p><strong><?php _e( 'Field error', 'verysimple' ); ?>:</strong></p>
 	<p>#vscf input.error, #vscf textarea.error { }</p>
-	<p><strong><?php _e( 'Error and Thank You message', 'verysimple' ); ?>:</strong></p>
+	<p><strong><?php _e( 'Field label error', 'verysimple' ); ?>:</strong></p>
 	<p>#vscf span.error { }</p>
+	<p><strong><?php _e( 'Error and Thank You message', 'verysimple' ); ?>:</strong></p>
 	<p>.vscf_info { }</p>
 	<p><strong><?php _e( 'Widget', 'verysimple' ); ?>:</strong></p>
 	<p>.vscf_sidebar { }</p>
 	<p><strong><?php _e( 'Plugin Stylesheet', 'verysimple' ); ?>:</strong></p>
-	<p><?php _e( 'For Default Style', 'verysimple' ); ?> <a href="plugin-editor.php?file=very-simple-contact-form/vscf_style.css"><?php _e( 'Click Here', 'verysimple' ); ?></a>.</p>
+	<p><?php _e( 'For Default Style', 'verysimple' ); ?> <a href="plugin-editor.php?file=very-simple-contact-form/vscf_style.css"><?php _e( 'click here', 'verysimple' ); ?></a>.</p>
 	</td>
 	</tr>
 	</tbody> 
