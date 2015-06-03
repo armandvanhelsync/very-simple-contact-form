@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Very Simple Contact Form v3.4\n"
+"Project-Id-Version: Very Simple Contact Form v3.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2015-05-24 11:01:36+0000\n"
+"PO-Revision-Date: 2015-06-03 21:38:10+0000\n"
 "Last-Translator: Curlybracket\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -181,34 +181,39 @@ msgstr "Bouton Envoyer"
 msgid "Field error"
 msgstr "Champ d'erreur"
 
-#: vscf_settings.php:140
+#: vscf_settings.php:142
 #@ verysimple
 msgid "Error and Thank You message"
 msgstr "Erreur et message de remerciement"
 
-#: vscf_settings.php:143
+#: vscf_settings.php:144
 #@ verysimple
 msgid "Widget"
 msgstr "Widget"
 
-#: vscf_settings.php:145
+#: vscf_settings.php:146
 #@ verysimple
 msgid "Plugin Stylesheet"
 msgstr "Feuille de style plug-in"
 
-#: vscf_settings.php:146
+#: vscf_settings.php:147
 #@ verysimple
 msgid "For Default Style"
 msgstr "Pour le Style Défaut"
 
-#: vscf_settings.php:146
+#: vscf_settings.php:147
 #@ verysimple
-msgid "Click Here"
-msgstr "Cliquez Ici"
+msgid "click here"
+msgstr "cliquez ici"
 
 #. translators: plugin header field 'Version'
 #: vscf_settings.php:0
 #@ verysimple
-msgid "3.4"
+msgid "3.5"
 msgstr ""
+
+#: vscf_settings.php:140
+#@ verysimple
+msgid "Field label error"
+msgstr "Erreur d'étiquette de champ"
 

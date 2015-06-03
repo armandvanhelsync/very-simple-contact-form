@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Very Simple Contact Form v3.4\n"
+"Project-Id-Version: Very Simple Contact Form v3.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2015-05-24 11:02:09+0000\n"
+"PO-Revision-Date: 2015-06-03 21:48:44+0000\n"
 "Last-Translator: Bo Ahlqvist\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -181,34 +181,39 @@ msgstr "Skicka-knappen"
 msgid "Field error"
 msgstr "Fältfel"
 
-#: vscf_settings.php:140
+#: vscf_settings.php:142
 #@ verysimple
 msgid "Error and Thank You message"
 msgstr "Fel och tackmeddelande"
 
-#: vscf_settings.php:143
+#: vscf_settings.php:144
 #@ verysimple
 msgid "Widget"
 msgstr "Widget"
 
-#: vscf_settings.php:145
+#: vscf_settings.php:146
 #@ verysimple
 msgid "Plugin Stylesheet"
 msgstr "Plugin stilmall"
 
-#: vscf_settings.php:146
+#: vscf_settings.php:147
 #@ verysimple
 msgid "For Default Style"
 msgstr "För standardstil"
 
-#: vscf_settings.php:146
+#: vscf_settings.php:147
 #@ verysimple
-msgid "Click Here"
-msgstr "Klicka här"
+msgid "click here"
+msgstr "klicka här"
 
 #. translators: plugin header field 'Version'
 #: vscf_settings.php:0
 #@ verysimple
-msgid "3.4"
+msgid "3.5"
 msgstr ""
+
+#: vscf_settings.php:140
+#@ verysimple
+msgid "Field label error"
+msgstr "Fältetikett fel"
 

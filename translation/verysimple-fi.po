@@ -3,19 +3,19 @@ msgstr ""
 "Project-Id-Version: Very Simple Contact Form v3.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2015-06-03 21:48:00+0000\n"
-"Last-Translator: Maja Blejec\n"
+"PO-Revision-Date: 2015-06-03 21:31:08+0000\n"
+"Last-Translator: Sami Skogberg\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: CSL v1.x\n"
-"X-Poedit-Language: Slovenian\n"
-"X-Poedit-Country: SLOVENIA\n"
+"X-Poedit-Language: Finnish\n"
+"X-Poedit-Country: FINLAND\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
-"X-Poedit-Basepath: ../../\n"
+"X-Poedit-Basepath: ../\n"
 "X-Poedit-Bookmarks: \n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Textdomain-Support: yes"
@@ -24,43 +24,43 @@ msgstr ""
 #: vscf_widget_form.php:11
 #@ verysimple
 msgid "Name"
-msgstr "Ime"
+msgstr "Nimi"
 
 #: vscf_main.php:12
 #: vscf_widget_form.php:12
 #@ verysimple
 msgid "Email"
-msgstr "E-naslov"
+msgstr "Sähköposti"
 
 #: vscf_main.php:13
 #: vscf_widget_form.php:13
 #@ verysimple
 msgid "Subject"
-msgstr "Zadeva"
+msgstr "Otsikko"
 
 #: vscf_main.php:14
 #: vscf_widget_form.php:14
 #@ verysimple
 msgid "Message"
-msgstr "Sporočilo"
+msgstr "Viesti"
 
 #: vscf_main.php:15
 #: vscf_widget_form.php:15
 #@ verysimple
 msgid "Fill in number"
-msgstr "Vnesite številko"
+msgstr "Syötä numero"
 
 #: vscf_main.php:16
 #: vscf_widget_form.php:16
 #@ verysimple
 msgid "Submit"
-msgstr "Pošlji"
+msgstr "Lähetä"
 
 #: vscf_main.php:17
 #: vscf_widget_form.php:17
 #@ verysimple
 msgid "Please fill in all the required fields"
-msgstr "Prosimo, izpolnite vsa obvezna polja"
+msgstr "Täytä kaikki kentät"
 
 #: vscf_main.php:18
 #: vscf_main.php:19
@@ -68,31 +68,31 @@ msgstr "Prosimo, izpolnite vsa obvezna polja"
 #: vscf_widget_form.php:19
 #@ verysimple
 msgid "Please enter at least 2 characters"
-msgstr "Prosimo, vnesite vsaj 2 znake"
+msgstr "Syötä vähintään 2 kirjainta"
 
 #: vscf_main.php:20
 #: vscf_widget_form.php:20
 #@ verysimple
 msgid "Please enter at least 10 characters"
-msgstr "Prosimo, vnesite vsaj 10 znakov"
+msgstr "Syötä vähintään 10 kirjainta"
 
 #: vscf_main.php:21
 #: vscf_widget_form.php:21
 #@ verysimple
 msgid "Please fill in the correct number"
-msgstr "Prosimo, vnesite pravo številko"
+msgstr "Tarkista syöttämäsi numero"
 
 #: vscf_main.php:22
 #: vscf_widget_form.php:22
 #@ verysimple
 msgid "Please enter a valid email"
-msgstr "Prosimo, vnesite veljaven e-naslov"
+msgstr "Syötä oikea sähköpostiosoite"
 
 #: vscf_main.php:23
 #: vscf_widget_form.php:23
 #@ verysimple
 msgid "Thanks for your message! I will contact you as soon as I can."
-msgstr "Hvala za sporočilo! Odgovorili vam bomo takoj, ko utegnemo."
+msgstr "Kiitos viestistäsi! Otan yhteyttä mahdollisimman pikaisesti."
 
 #. translators: plugin header field 'Name'
 #: vscf_settings.php:0
@@ -107,7 +107,7 @@ msgstr ""
 #: vscf_settings.php:0
 #@ verysimple
 msgid "This is a very simple contact form. Use shortcode [contact] to display form on page or use the widget. For more info please check readme file."
-msgstr "Obrazec, ki je pred vami je zelo preprost. Uporabite kratko kodo [contact], da prikažete obrazec na strani ali pa uporabite gradnik. Za več informacij preverite datoteko readme."
+msgstr "Tämä on todella yksinkertainen yhteydenotto lomake (very simple contact form). Käytä shortcodea [contact] näyttääksesi lomakkeen sivulla tai vimpaimessa. Lisätietoja readme tiedostossa."
 
 #. translators: plugin header field 'Author'
 #: vscf_settings.php:0
@@ -121,90 +121,90 @@ msgstr ""
 msgid "http://www.guidovanderleest.nl"
 msgstr ""
 
-#: vscf_widget.php:7
-#@ verysimple
-msgid "Very Simple Contact Form sidebar widget"
-msgstr ""
-
-#: vscf_widget.php:45
-#@ verysimple
-msgid "Widget Title:"
-msgstr "Naslov Gradnika:"
-
 #: vscf_settings.php:86
 #@ verysimple
 msgid "VSCF Custom Style"
-msgstr "VSCF slog po meri"
+msgstr "VSCF Muokattu Tyyli"
 
 #: vscf_settings.php:94
 #@ verysimple
 msgid "Description"
-msgstr "Opis"
+msgstr "Kuvaus"
 
 #: vscf_settings.php:95
 #@ verysimple
 msgid "Custom Style"
-msgstr "Slog po meri"
+msgstr "Muokattu Tyyli"
 
 #: vscf_settings.php:101
 #@ verysimple
 msgid "On this page you can add Custom Style (CSS) to change the layout of your Very Simple Contact Form."
-msgstr "Tukaj lahko dodate slog po meri (CSS) ter tako spremenite podobo in postavitev svojega Very Simple Contact Form."
+msgstr "Tällä sivulla voit lisätä muokatun tyylin (CSS) muuttaaksesi Very Simple Contact Formin ulkoasua."
 
 #: vscf_settings.php:120
 #@ verysimple
 msgid "Save Style"
-msgstr "Shrani Slog"
+msgstr "Tallenna Tyyli"
 
 #: vscf_settings.php:126
 #@ verysimple
 msgid "Field label"
-msgstr "Etiketa polje"
+msgstr "Kentän nimi"
 
 #: vscf_settings.php:128
 #@ verysimple
 msgid "All fields"
-msgstr "Vsa polja"
+msgstr "Kaikki kentät"
 
 #: vscf_settings.php:130
 #@ verysimple
 msgid "Fields by name"
-msgstr "Polja z ime"
+msgstr "Kentän nimen mukaan"
 
 #: vscf_settings.php:133
 #@ verysimple
 msgid "Submit button"
-msgstr "Gumba za pošiljanje"
+msgstr "Lähetä painike"
 
 #: vscf_settings.php:138
 #@ verysimple
 msgid "Field error"
-msgstr "Polje napako"
+msgstr "Virheilmoitus"
 
 #: vscf_settings.php:142
 #@ verysimple
 msgid "Error and Thank You message"
-msgstr "Napako in Zahvalno sporočilo"
+msgstr "Virhe ja kiitos viestit"
 
 #: vscf_settings.php:144
 #@ verysimple
 msgid "Widget"
-msgstr "Gradnika"
+msgstr "Vimpain"
 
 #: vscf_settings.php:146
 #@ verysimple
 msgid "Plugin Stylesheet"
-msgstr "Plugin Slog"
+msgstr "Lisäosan Tyylitiedosto"
 
 #: vscf_settings.php:147
 #@ verysimple
 msgid "For Default Style"
-msgstr "Za Privzet Slog"
+msgstr "Oletustyyli"
 
 #: vscf_settings.php:147
 #@ verysimple
 msgid "click here"
-msgstr "kliknite tukaj"
+msgstr "klikkaa tästä"
+
+#: vscf_widget.php:7
+#@ verysimple
+msgid "Very Simple Contact Form sidebar widget"
+msgstr "Very Simple Contact Form sivupalkki vimpain"
+
+#: vscf_widget.php:45
+#@ verysimple
+msgid "Widget Title:"
+msgstr "Vimpaimen Otsikko:"
 
 #. translators: plugin header field 'Version'
 #: vscf_settings.php:0
@@ -215,5 +215,5 @@ msgstr ""
 #: vscf_settings.php:140
 #@ verysimple
 msgid "Field label error"
-msgstr "Etiketa polje napako"
+msgstr "Kentän nimi virhe"
 
