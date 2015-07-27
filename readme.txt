@@ -1,15 +1,18 @@
 === Very Simple Contact Form ===
 Contributors: Guido07111975
-Version: 3.5
+Version: 3.6
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.7
 Tested up to: 4.2
 Stable tag: trunk
-Tags: simple, responsive, contact, contactform, email, honeypot, captcha, widget, custom, style, css, editor
+Tags: simple, responsive, contact, contactform, form, email, honeypot, captcha, widget, custom, style, css, editor
 
 
 == Changelog ==
+Version 3.6
+- updated language files
+
 Version 3.5
 - added Finnish translation (thanks Sami Skogberg)
 - several small adjustments
@@ -144,13 +147,13 @@ Dutch, German, French, Danish, Swedish, Finnish, Italian, Spanish, Catalan, Braz
 Without the WordPress codex and help from the WordPress community I was not able to develop this plugin, so: thank you! 
 And a special thanks to the friendly users of 'PHP hulp' for helping me to create bugfree code.
 
-I have used these scripts for developing the Very Simple Contact Form:
+I have used these tutorials for developing the Very Simple Contact Form:
 
 http://code.tutsplus.com/articles/creating-a-simple-contact-form-for-simple-needs--wp-27893
 
 http://code.tutsplus.com/articles/building-custom-wordpress-widgets--wp-25241
 
-These scripts are released under the GNU General Public License v3 or later.
+These tutorials are released under the GNU General Public License v3 or later.
 
 Enjoy,
 Guido
