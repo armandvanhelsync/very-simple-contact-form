@@ -1,219 +1,167 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Very Simple Contact Form v3.5\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: 2015-06-03 21:28:04+0000\n"
-"Last-Translator: B. Kolding\n"
+"Project-Id-Version: Very Simple Contact Form\n"
+"POT-Creation-Date: 2015-07-27 13:24+0200\n"
+"PO-Revision-Date: 2015-07-27 13:24+0200\n"
+"Last-Translator: \n"
 "Language-Team: \n"
+"Language: da_DK\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 1.5.5\n"
-"X-Poedit-Language: Danish\n"
-"X-Poedit-Country: DENMARK\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
-"X-Poedit-Basepath: ../\n"
-"X-Poedit-Bookmarks: \n"
+"X-Generator: Poedit 1.8.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: vscf_settings.php\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
-"X-Textdomain-Support: yes"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: vscf_main.php:11
-#: vscf_widget_form.php:11
-#@ verysimple
+#: vscf_main.php:11 vscf_widget_form.php:11
 msgid "Name"
 msgstr "Navn"
 
-#: vscf_main.php:12
-#: vscf_widget_form.php:12
-#@ verysimple
+#: vscf_main.php:12 vscf_widget_form.php:12
 msgid "Email"
 msgstr "E-mail"
 
-#: vscf_main.php:13
-#: vscf_widget_form.php:13
-#@ verysimple
+#: vscf_main.php:13 vscf_widget_form.php:13
 msgid "Subject"
 msgstr "Emne"
 
-#: vscf_main.php:14
-#: vscf_widget_form.php:14
-#@ verysimple
+#: vscf_main.php:14 vscf_widget_form.php:14
 msgid "Message"
 msgstr "Meddelelse"
 
-#: vscf_main.php:16
-#: vscf_widget_form.php:16
-#@ verysimple
-msgid "Submit"
-msgstr "Send"
-
-#: vscf_main.php:17
-#: vscf_widget_form.php:17
-#@ verysimple
-msgid "Please fill in all the required fields"
-msgstr "Udfyld alle krævede felter"
-
-#: vscf_main.php:18
-#: vscf_main.php:19
-#: vscf_widget_form.php:18
-#: vscf_widget_form.php:19
-#@ verysimple
-msgid "Please enter at least 2 characters"
-msgstr "Skriv mindst 2 karakterer"
-
-#: vscf_main.php:20
-#: vscf_widget_form.php:20
-#@ verysimple
-msgid "Please enter at least 10 characters"
-msgstr "Skriv mindst 10 karakterer"
-
-#: vscf_main.php:22
-#: vscf_widget_form.php:22
-#@ verysimple
-msgid "Please enter a valid email"
-msgstr "Skriv en gyldig e-mail adresse"
-
-#: vscf_main.php:23
-#: vscf_widget_form.php:23
-#@ verysimple
-msgid "Thanks for your message! I will contact you as soon as I can."
-msgstr "Tak for din mail. Jeg vender tilbage så snart som muligt."
-
-#. translators: plugin header field 'Name'
-#: vscf_settings.php:0
-#: vscf_settings.php:116
-#: vscf_widget.php:8
-#: vscf_widget.php:41
-#@ verysimple
-msgid "Very Simple Contact Form"
-msgstr ""
-
-#. translators: plugin header field 'Description'
-#: vscf_settings.php:0
-#@ verysimple
-msgid "This is a very simple contact form. Use shortcode [contact] to display form on page or use the widget. For more info please check readme file."
-msgstr "Dette er en enkel kontakt formular. Brug 'shortcode' [contact] for at vise formularen på siden eller bruge widget. Mere info i readme filen."
-
-#. translators: plugin header field 'Author'
-#: vscf_settings.php:0
-#@ verysimple
-msgid "Guido van der Leest"
-msgstr ""
-
-#. translators: plugin header field 'AuthorURI'
-#: vscf_settings.php:0
-#@ verysimple
-msgid "http://www.guidovanderleest.nl"
-msgstr ""
-
-#: vscf_main.php:15
-#: vscf_widget_form.php:15
-#@ verysimple
+#: vscf_main.php:15 vscf_widget_form.php:15
 msgid "Fill in number"
 msgstr "Udfylde nummer"
 
-#: vscf_main.php:21
-#: vscf_widget_form.php:21
-#@ verysimple
+#: vscf_main.php:16 vscf_widget_form.php:16
+msgid "Submit"
+msgstr "Send"
+
+#: vscf_main.php:17 vscf_widget_form.php:17
+msgid "Please fill in all the required fields"
+msgstr "Udfyld alle krævede felter"
+
+#: vscf_main.php:18 vscf_main.php:19 vscf_widget_form.php:18
+#: vscf_widget_form.php:19
+msgid "Please enter at least 2 characters"
+msgstr "Skriv mindst 2 karakterer"
+
+#: vscf_main.php:20 vscf_widget_form.php:20
+msgid "Please enter at least 10 characters"
+msgstr "Skriv mindst 10 karakterer"
+
+#: vscf_main.php:21 vscf_widget_form.php:21
 msgid "Please fill in the correct number"
 msgstr "Udfyld venligst det rigtige nummer"
 
-#: vscf_widget.php:7
-#@ verysimple
-msgid "Very Simple Contact Form sidebar widget"
-msgstr ""
+#: vscf_main.php:22 vscf_widget_form.php:22
+msgid "Please enter a valid email"
+msgstr "Skriv en gyldig e-mail adresse"
 
-#: vscf_widget.php:45
-#@ verysimple
-msgid "Widget Title:"
-msgstr "Widget titel:"
+#: vscf_main.php:23 vscf_widget_form.php:23
+msgid "Thanks for your message! I will contact you as soon as I can."
+msgstr "Tak for din mail. Jeg vender tilbage så snart som muligt."
 
 #: vscf_settings.php:86
-#@ verysimple
 msgid "VSCF Custom Style"
 msgstr "VSCF Custom Stil"
 
 #: vscf_settings.php:94
-#@ verysimple
 msgid "Description"
 msgstr "Beskrivelser"
 
 #: vscf_settings.php:95
-#@ verysimple
 msgid "Custom Style"
 msgstr "Custom Stil"
 
 #: vscf_settings.php:101
-#@ verysimple
-msgid "On this page you can add Custom Style (CSS) to change the layout of your Very Simple Contact Form."
-msgstr "På denne side kan du tilføje Custom Stil (CSS) for at ændre layoutet på din Very Simple Contact Form."
+msgid ""
+"On this page you can add Custom Style (CSS) to change the layout of your "
+"Very Simple Contact Form."
+msgstr ""
+"På denne side kan du tilføje Custom Stil (CSS) for at ændre layoutet på din "
+"Very Simple Contact Form."
+
+#. translators: plugin header field 'Name'
+#: vscf_settings.php:116 vscf_widget.php:8 vscf_widget.php:41
+msgid "Very Simple Contact Form"
+msgstr ""
 
 #: vscf_settings.php:120
-#@ verysimple
 msgid "Save Style"
 msgstr "Gem Stil"
 
 #: vscf_settings.php:126
-#@ verysimple
 msgid "Field label"
 msgstr "Felt label"
 
 #: vscf_settings.php:128
-#@ verysimple
 msgid "All fields"
 msgstr "Alle felter"
 
 #: vscf_settings.php:130
-#@ verysimple
 msgid "Fields by name"
 msgstr "Felter efter navn"
 
 #: vscf_settings.php:133
-#@ verysimple
 msgid "Submit button"
 msgstr "Send-knappen"
 
 #: vscf_settings.php:138
-#@ verysimple
 msgid "Field error"
 msgstr "Felt fejl"
 
+#: vscf_settings.php:140
+msgid "Field label error"
+msgstr "Felt label fejl"
+
 #: vscf_settings.php:142
-#@ verysimple
 msgid "Error and Thank You message"
 msgstr "Fejl og Tak besked"
 
 #: vscf_settings.php:144
-#@ verysimple
 msgid "Widget"
 msgstr "Widget"
 
 #: vscf_settings.php:146
-#@ verysimple
 msgid "Plugin Stylesheet"
 msgstr "Plugin Stil"
 
 #: vscf_settings.php:147
-#@ verysimple
 msgid "For Default Style"
 msgstr "For Standard Stil"
 
 #: vscf_settings.php:147
-#@ verysimple
 msgid "click here"
 msgstr "klik her"
 
-#. translators: plugin header field 'Version'
-#: vscf_settings.php:0
-#@ verysimple
-msgid "3.5"
+#: vscf_widget.php:7
+msgid "Very Simple Contact Form sidebar widget"
 msgstr ""
 
-#: vscf_settings.php:140
-#@ verysimple
-msgid "Field label error"
-msgstr "Felt label fejl"
+#: vscf_widget.php:45
+msgid "Widget Title:"
+msgstr "Widget titel:"
 
+#. translators: plugin header field 'Description'
+msgid ""
+"This is a very simple contact form. Use shortcode [contact] to display form "
+"on page or use the widget. For more info please check readme file."
+msgstr ""
+"Dette er en enkel kontakt formular. Brug 'shortcode' [contact] for at vise "
+"formularen på siden eller bruge widget. Mere info i readme filen."
+
+#. translators: plugin header field 'Author'
+msgid "Guido van der Leest"
+msgstr ""
+
+#. translators: plugin header field 'AuthorURI'
+msgid "http://www.guidovanderleest.nl"
+msgstr ""
