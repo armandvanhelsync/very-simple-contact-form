@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Very Simple Contact Form\n"
 "POT-Creation-Date: 2015-07-27 13:05+0200\n"
-"PO-Revision-Date: 2015-07-27 13:05+0200\n"
+"PO-Revision-Date: 2015-07-31 16:23+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ca\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
-"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
@@ -48,8 +48,7 @@ msgstr "Enviar"
 msgid "Please fill in all the required fields"
 msgstr "És necessari omplir tots els camps obligatoris"
 
-#: vscf_main.php:18 vscf_main.php:19 vscf_widget_form.php:18
-#: vscf_widget_form.php:19
+#: vscf_main.php:18 vscf_main.php:19 vscf_widget_form.php:18 vscf_widget_form.php:19
 msgid "Please enter at least 2 characters"
 msgstr "Si us plau, introdueix almenys 2 caràcters"
 
@@ -83,8 +82,8 @@ msgstr "Estils Personalitzats"
 
 #: vscf_settings.php:101
 msgid ""
-"On this page you can add Custom Style (CSS) to change the layout of your "
-"Very Simple Contact Form."
+"On this page you can add Custom Style (CSS) to change the layout of your Very "
+"Simple Contact Form."
 msgstr ""
 "En aquesta pàgina podeu afegir estils personalitzats (CSS) per canviar la "
 "disposició del seu Very Simple Contact Form."
@@ -152,12 +151,12 @@ msgstr "Títol del widget:"
 
 #. translators: plugin header field 'Description'
 msgid ""
-"This is a very simple contact form. Use shortcode [contact] to display form "
-"on page or use the widget. For more info please check readme file."
+"This is a very simple contact form. Use shortcode [contact] to display form on "
+"page or use the widget. For more info please check readme file."
 msgstr ""
-"Aquest és un formulari de contacte molt senzill. Utilitzeu el shortcode "
-"[contact] per afegir el formulari a la pagina o utilitzar el widget. Per "
-"obtenir més informació podeu consultar l'arxiu 'readme'."
+"Aquest és un formulari de contacte molt senzill. Utilitzeu el shortcode [contact] "
+"per afegir el formulari a la pagina o utilitzar el widget. Per obtenir més "
+"informació podeu consultar l'arxiu 'readme'."
 
 #. translators: plugin header field 'Author'
 msgid "Guido van der Leest"
