@@ -5,24 +5,21 @@ class vscf_widget extends WP_Widget {
 	// Constructor 
 	function vscf_widget() {
 		$widget_ops = array( 'classname' => 'vscf_sidebar', 'description' => __('Very Simple Contact Form sidebar widget', 'verysimple') );
-		$this->WP_Widget( 'vscf-widget', __('Very Simple Contact Form', 'verysimple'), $widget_ops );
+		parent::__construct( 'vscf-widget', __('Very Simple Contact Form', 'verysimple'), $widget_ops );
 	}
 
 	// Display widget with contact form in frontend 
 	function widget( $args, $instance ) {
-		extract( $args );
 
-		// Get widget title set in dashboard
-		$title = apply_filters('widget_title', $instance['title'] );
+		echo $args['before_widget']; 
 
-		echo $before_widget;
+		if ( !empty( $instance['title'] ) ) { 
+			echo $args['before_title'] . apply_filters( 'widget_title', $instance['title'] ). $args['after_title']; 
+		} 
 
-		// Display title and form
-		if ( $title )
-			echo $before_title . $title . $after_title;
-			echo do_shortcode( '[contact-widget]' );
+		echo do_shortcode( '[contact-widget]' );
 
-		echo $after_widget;
+		echo $args['after_widget']; 
 	}
 
 	// Update widget 

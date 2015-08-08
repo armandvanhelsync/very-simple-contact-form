@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Very Simple Contact Form
  * Description: This is a very simple contact form. Use shortcode [contact] to display form on page or use the widget. For more info please check readme file.
- * Version: 3.6
+ * Version: 3.7
  * Author: Guido van der Leest
  * Author URI: http://www.guidovanderleest.nl
  * License: GNU General Public License v3 or later
@@ -113,7 +113,14 @@ function vscf_options_page() {
 ?>
 <div class="wrap"> 
 	<div id="icon-plugins" class="icon32"></div> 
-	<h2><?php _e( 'Very Simple Contact Form', 'verysimple' ); ?></h2> 
+	<h2><?php _e( 'Very Simple Contact Form', 'verysimple' ); ?></h2>
+
+<hr>
+<p>IMPORTANT INFO: I WILL REMOVE THE CUSTOM STYLE EDITOR IN NEXT UPDATE (VERSION 3.8).</p>
+<p>WHY? BECAUSE THERE ARE MANY PLUGINS FOR THAT SUCH AS MY OWN PLUGIN <a href="https://wordpress.org/plugins/very-simple-custom-style">Very Simple Custom Style</a>.</p>
+<p>SO IF YOU'VE ADDED CUSTOM STYLE, PLEASE REMOVE THIS AND USE (FOR EXAMPLE) MY PLUGIN IN STEAD.</p>
+<hr>
+ 
 	<form action="options.php" method="POST">
 	<?php settings_fields( 'vscf-options' ); ?>
 	<?php do_settings_sections( 'vscf' ); ?>

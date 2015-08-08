@@ -1,6 +1,6 @@
 === Very Simple Contact Form ===
 Contributors: Guido07111975
-Version: 3.6
+Version: 3.7
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.7
@@ -10,6 +10,10 @@ Tags: simple, responsive, contact, contactform, form, email, honeypot, captcha, 
 
 
 == Changelog ==
+Version 3.7
+- NOTE: in next version I will remove the custom style editor. More info: WordPress plugin page and readme file
+- file vscf_widget: updated php constructor and frontend code
+
 Version 3.6
 - updated language files
 
@@ -139,6 +143,17 @@ Use shortcode [contact] to display form on page or use the widget to display for
 You can change the layout (CSS) of your form using the custom style page in WP dashboard.
 
 Question? Please take a look at the FAQ section.
+
+---
+
+IMPORTANT INFO: I WILL REMOVE THE CUSTOM STYLE EDITOR IN NEXT UPDATE (VERSION 3.8).
+
+WHY? BECAUSE THERE ARE MANY PLUGINS FOR THAT SUCH AS MY OWN PLUGIN <a href="https://wordpress.org/plugins/very-simple-custom-style">Very Simple Custom Style</a>.
+
+SO IF YOU'VE ADDED CUSTOM STYLE, PLEASE REMOVE THIS AND USE (FOR EXAMPLE) MY PLUGIN IN STEAD.
+
+---
+
 
 = Translation =
 Dutch, German, French, Danish, Swedish, Finnish, Italian, Spanish, Catalan, Brazilian Portuguese, Polish, Croatian, Estonian, Slovenian, Hungarian and Turkish translation included. More translations are very welcome! Please contact me via my website.
