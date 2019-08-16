@@ -10,6 +10,10 @@ Tags: simple, responsive, contact, contactform, form, email, honeypot, captcha, 
 
 
 == Changelog ==
+Version 3.8
+- NOTE: Email field edits for contact form on https://www.buildawebsite.biz/contact/
+- file vscf_widget: updated php constructor and frontend code
+
 Version 3.7
 - NOTE: in next version I will remove the custom style editor. More info: WordPress plugin page and readme file
 - file vscf_widget: updated php constructor and frontend code
